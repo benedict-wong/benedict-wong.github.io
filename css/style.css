@@ -446,7 +446,7 @@ i{
 
 .arrow-left, .arrow-right{
   flex:20%;
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
   margin:auto 0em;
   cursor:pointer;

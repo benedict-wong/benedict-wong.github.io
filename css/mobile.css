@@ -45,6 +45,15 @@
 }
 
 @media(max-width: 80em){
+  .project-1-video img{
+    max-width:90%;
+    display:inline;
+  }
+  .project-2-video img{
+    max-width:90%;
+    display:inline;
+  }
+
   .project-1-video video{
     max-width:90%;
     display: inline;
@@ -90,6 +99,9 @@
   }
   .project-detail-content{
     margin: 7em 5em;
+  }
+  .arrow-left, .arrow-right{
+      font-size: 2.5em;
   }
 
 @media(max-width: 62em){
