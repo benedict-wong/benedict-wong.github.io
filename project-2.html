@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/fonts.css"/>
+  <link rel="stylesheet" href="css/mobile.css"/>
+  <script src="js/functions.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects: Benedict Wong</title>
+</head>
+<body>
+  <section class="section-nav">
+    <nav>
+
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#works">Works</a>
+      <a href="index.html#contact">Contact</a>
+
+    </nav>
+  </section>
+  <div class="project-container" id="top">
+
+    <section class="project-detail-content">
+      <a href="index.html#works">&#8592; Back to all works</a>
+      <p class="category">Category: Game Jam</p>
+      <h1>Emergency in Section C</h1>
+      <section class="project-1-info">
+        <ul>
+          <li>Start-End date: May 2nd 2021 - May 9th 2021</li>
+          <li>Tools used: Unity, C#, Photoshop, Git</li>
+          <li>Roles: C# systems programmer, game designer, asset creator and assistant project manager. </li>
+        </ul>
+      </section>
+      <section class="intro">
+        <div class="project-prompt">
+          <h2 class="lquot">&#8220;</h2>
+          <p class="first-p">Emergency in Section C is a 2D time-attack platformer created for the Itch.io Week-long Make-A-Level Game Jame Competition.</p>
+          <p class="last-p">Parkour your way through an exploding space station after a catastrophic failure!</p>
+
+
+          <h2 class="rquot">&#8221;</h2>
+        </div>
+
+
+
+      <p>Emergency in Section C is my first venture into competition-based game development. In this game, I combined my skills of systems design, as well as general C# and Unity knowledge to implement the oxygen system and indicators, enemy behavior, animations and sound assets (both sound effects and background music) into Unity. At the same time, I also helped my teammates troubleshoot, develop and provide feedback for their parts and roles in the game. Furthermore, since I had used Git the most out of all the members of the team, I also handled branch merging and resolving file conflicts at the end of each day.</p>
+      </section>
+      <section>
+        <h3>Intial Preparation (March 2nd)</h3>
+        <p>
+        My first task in developing for my team's game was to create the oxygen system and create methods that would later be used by other scripts to lower the player's oxygen bar. As the script for this was still at an abstract level, I brainstormed with the group about the many different ways the player could lose oxygen. Coming up with ideas such as a passive decrease, moving, jumping, sliding on the walls and being hit by enemies, I put in placeholder values for them and wrote a list of methods that could easily be called upon later. Furthermore, I also considered ways that the player could regain oxygen. To do this, I wrote up code for a pickup and checkpoint system that would implement the regaining of oxygen.
+        </p>
+        <p>
+        Additionally, on the first day, I also wrote a simple script for the enemy behavior, programming in a simple timer that would aim at the player's position and shoot a projectile if the player entered its detection range.
+        </p>
+        <div class="project-2-video">
+        <a href="img/project-2-brainstorm.jpg">  <img src="img/project-2-brainstorm-small.jpg" alt="image on brainstormed ideas"> </a>
+        <a href="img/project-2-brainstorm-code.png">  <img src="img/project-2-brainstorm-code.png" alt="image on code programmed as result of brainstormed ideas"></a>
+      </div>
+      </section>
+      <section>
+        <h3>Further refinement of the scripts and animation implementation(May 3rd - May 4th)</h3>
+        <p>
+          After the first day of creating the basic features of the game, I took the next two days to further enhance my scripts to work, as well as combining the other features that my team had made. First, I modified the enemy behaviour as the enemy (or the placeholder version of it) had been placed into our level by our level designer.The changes I made here was to do with the projectile logic being incorrect and the fact that the player position would not continue to update as the player stayed in the detection zone. For the projectile logic, I replaced my initial countdown timer with C#'s Time function that would count the seconds that were necessary between shots. By doing so, the timer system worked and the bullets would fire properly. For the detection zone, instead of updating the player's position when the player first enters the area, I changed it to activate or deactivate a boolean depending on whether the player is inside or outside. Doing so allowed me to put a logic check to constantly update the player's position only if the boolean was activated.
+        </p>
+        <p>
+          Once the logic for the enemy behaviour itself was fixed and implemented properly, the next step was to create the projectile script that the projectiles themselves would run. The main objectives of this script was to handle the projectile movement as well as the projectile to player/environment collision interaction. Once the projectile was instantiated by the enemy, the projectile would launch itself foward towards the player's position at a 5 pixels per tick. This was done by passing in a Vector2 of the velocity speed to the RigidBody. After the movement of the projectile was completed, the next step was to make sure the collision between the projectile and the player/environment made sense. I outlined two ways that the projectile itself would end up:
+        </p>
+        <ul>
+          <li>- Projectile vs. Player: The Player would lose oxygen as implemented by the OxygenManager method, and the instantiated projectile clone would delete itself.</li>
+          <li>- Projectile vs. Environment: The projectile deletes itself if it hits the evironment.</li>
+        </ul>
+
+        <div class="project-2-video">
+
+        </div>
+
+        <p>Using this outline, I did as the steps instructed and implemented collision logic to detect whether the target hit was of a player object or an environmental object. Once the enemy behaviour and the bullet behaviour was successfully implemented and tested, I moved onto implementing the frame by frame animation of the player's idle and running animations that my teammate had drawn for us. Converting the images into an animation clips was easy, as it only involved dragging and dropping the image files into the player character since Unity would handle the keyframing. However, the next step required manual input and was necessary as it involved creating state change logic that would make sure the animations played at the correct times.</p>
+
+        <p>Since these two animations were of the idle position and the running motion, I made two booleans that would turn on and off depending on whether the player was moving or not. Simply put, if the player was moving, the running animation would play, otherwise if the player was standing still, the idle animation would play. Using Unity's animator panel, I linked these states to one another and through our player movement script, I implemented a method that would toggle the movement boolean on and off accordingly.</p>
+
+        <div class="project-2-video">
+        <a href="img/animatorIdleRun.png"><img src="img/animatorIdleRun.png" alt="showcasing the animator link between idle and run"></a>
+        <a href="img/animatorCode.png"><img src="img/animatorCodeNew.png" alt="code that shows changing between different animations"></a>
+      </div>
+      </section>
+      <section>
+        <h3>Asset and game mechanic implementations (May 5th - May 6th) </h3>
+        <p>
+          In order to ensure the lack of major bugs that prevented gameplay from occurring, I used these two days to implement the majority of assets and game features into the game through the scripts. Additionally, I helped my teammates troubleshoot any glaring issues, such as the player being stranded on a section due to mechanics not resetting after reviving at a checkpoint. Lastly, I took the features that my teammates had initialized and connected them to the scripts that I had implemented so they would work with one another without problems.
+        </p>
+        <p>
+          First, May 5th was the day in which my teammate's movement script had been completed, so I went into his code to implement the oxygen methods that I had made on the first day. Testing the depletion, I noticed that there were instances where the oxygen would fail to deplete as a result of faulty logic. In order to remedy and fix this, I wrote down a brief summary of what would happen to trigger the bug and slowly worked my way through the code to see what was causing the issue. Upon finding out the reason, I went in and reimplemented the code to fix this issue. Next, as the overall level design was complete and the oxygen pickups, checkpoint areas and enemy turret placements were all set, I went in and implemented the scripts that would allow for the player to interact with these game objects and produce effects accordingly. For example, with the oxygen pickups, I implemented the script where it would provide the player with a set amount of oxygen then proceed to deactivate the oxygen pickup sprite and bounding box from the game. However, upon my teammate's testing, we noticed that these would not reset upon reviving at a checkpoint, which meant that player could be stranded in a section due to the lack of a pickup that could save their life and chances of reaching the next section. To solve this issue, I made sure that every time a player revived at a checkpoint, a boolean would flip and reactivate all oxygen pickups that had been deactivated. In implementing this, I solved the issue of accidentally soft-locking players from completing the game, which in turn also helped me implement a similar method for the moving platforms that did not reset at checkpoint revive.
+        </p>
+        <p>
+          On May 6th, after receiving the final turret design from our artist, I reimagined and redesigned the turret so that it would work with the newest asset. As the turret consisted of a base and a revolving barrel, I had to remake the script so that the barrel would turn on an axis at the top of the base and rotate towards the player. Since my original script immediately launched a projectile at the player without any animation, I needed to revisit the original code and see what I could salvage and what I needed to introduce to the script.
+        </p>
+        <p>
+          As mentioned previously, since there was no code that guided the turret barrel towards the player, I needed to introduce new code. Following a tutorial, I implemented a calculation to find the angle between the current position and the player's position, which subsequently allowed the turret to incrementally rotate towards the player. Upon reaching its destination, the turret would then instantiate a bullet with the position and rotation of the muzzle, which was situated at the base of the barrel. Doing so would provide the bullet with a position and rotation to fire towards, solving the issue that I had beforehand where the bullet would not be rotated correctly. Following the reintroduced implementation of the turret and bullet, I went onto set a on and off state for the turret, changing the sprite to show an on/off indicator on the turret itself. Using a simple sprite asset switch, this was done rather quickly. Saving it as a prefab and replacing all the placeholder turrets, the turret asset was finished. Furthermore, in order to fix the turrets from rotating 180 degrees to face the player between walls, I changed the detection zone from a sphere located a the base of the turret to a rectangular detection zone that would only trigger in an area in front of the turret.
+        </p>
+        <div class="project-2-video">
+          <video controls class="time-out-intro-video">
+          <source src="videos/project-2-SectionC-Turret.mp4" type="video/mp4">
+          </video>
+        </div>
+
+          <p>
+
+          Lastly, after all the most important mechanics were finished, I implemented the background music that my teammate had made for us and, according to his specifications, made sure the music would fade in and out upon changing sections. Furthermore, for the music, as well as the other sound effects that had been implemented so far, I connected the volume slider that was implemented in the main menu to work with the sound volume.
+
+        </p>
+        <div class="project-2-video">
+
+      </div>
+      </section>
+      <section>
+        <h3>Final updates and improvements (May 7th - May 8th)</h3>
+        <p>
+          May 7th and 8th were mainly days for final changes and tweaks to the game. We did not introduce any new features in order to prevent any chances of game-breaking bugs from showing up. As a result, my last changes to the scripts were mainly those that implemented our voice actor's sounds into the game, as well as changes to the volume slider. Furthermore, I also revisited all of the scripts to see if there were any faulty logic in place and to squash the bugs that weren't game-breaking but needed some sort of checking.
+        </p>
+        <p>
+          Using the same implementation that I did with the sound effects for the game objects beforehand (oxygen pickups, checkpoint interaction and turret moving/firing), I connected each of the sounds that our voice actor had recorded to the individual actions of the player. Using the system of swapping out audio clips depending on the action done and replacing it with an empty placeholder if there were no actions performed, the audio source would play each sound at the correct times. At this time, I also noticed that the volume slider was working with hard values and would raise or lower the sound too quickly if the slider was on the lower end. As a result, I calculated the volume fade to increase or decrease at a rate of 60% of the volume slider such that the sound of fade in/out within just over one second. Once the sounds were all implemented, I took a look at the bug where it could be possible for the player to die right before the ending cutscene triggered. While the cutscene would trigger anyways even if the bug made the player respawn at the last checkpoint, I made sure that this could not happen by setting the trigger to occur upon entering as opposed to on exit. Doing so prevented the player from dying (by turning off the passive oxygen depletion) and allow for the cutscene to trigger naturally.
+        </p>
+
+        <div class="project-2-video">
+
+      </div>
+      </section>
+      <section>
+        <h3>Reflection</h3>
+        <p>
+          Overall, the game was a success. Our goals were successfully realized and our core game mechanics were implemented in a way that they were both playable and enjoyable. Furthermore, we were able to implement most of our assets, scrapping some that weren't able to be implemented in time, as is naturally in game design. Since this was our first game jam competetion, we definitely overworked ourselves in the first few days, which led us to feel burned out nearing the end. Despite that, our team motivated one another to make sure we all kept on track to finish the game to the best of our abilities. One challenge that I had with the game jam and overall workflow was that our group was rather scattered in terms of implementation, which led to early merge issues in Github. This was something that I learned rather quickly to fix, due to the frustrations when merging the separate branches and teammates losing work temporarily in the main branch. As a result, I learned to plan out and coordinate with my teammates on what needed to be worked on and what not to fiddle with in order to prevent these issues from cropping up again.
+
+        </p>
+        <section class="dl-section"><a href="https://kwiper01.itch.io/emergency-in-section-c"><span class="dl-icon">&#10515;</span> Check out Emergency in Section C here! </a></section>
+      </section>
+      <a href="index.html#works">&#8592; Back to all works</a>
+
+    </section>
+
+  </div>
+  </body>
+</html>

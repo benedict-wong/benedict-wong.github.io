@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/fonts.css"/>
+<link rel="stylesheet" href="css/mobile.css"/>
+<script src="js/functions.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects: Benedict Wong</title>
+</head>
+<body>
+
+<div class="project-container" id="top">
+  <section class="section-nav">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#works">Works</a>
+      <a href="index.html#contact">Contact</a>
+
+    </nav>
+  </section>
+
+  <section class="project-detail-content">
+    <a href="index.html#works">&#8592; Back to all works</a>
+
+    <section class="project-1-info">
+      <p class="category">Category: Term Project</p>
+      <h1>Time Out!</h1>
+      <ul>
+        <li>Start - End Date: February 2021 - April 2021</li>
+        <li>Tools used: Unity, C#, Oculus VR SDK </li>
+        <li>Roles: C# programmer and Unity developer. </li>
+
+      </ul>
+    </section>
+    <section class="intro">
+      <div class="project-prompt">
+        <h2 class="lquot">&#8220;</h2>
+        <p class="first-p">"Time Out!" is an exploratory Virtual Reality experience where the player plays as a child trying to collect his toys scattered throughout the house and escape from his mom's watchful eyes.</p>
+        <p class="last-p">Sneak, hide and move around the house to find and put your toys back in your toy chest!</p>
+        <h2 class="rquot">&#8221;</h2>
+      </div>
+      <h3>Introduction</h3>
+    <p>"Time Out!" is my first venture into the VR programming side of Unity. The goal of this project was to create an enjoyable game and fun experience in Unity using 3-D and VR by allowing the player to explore a world beyond their own.
+      My role in this project was to program the necessary interactions and player mechanics, as well as to oversee the other members' contributions by implementing them into Unity and making them connect with one another as intended by our interaction goals.
+    </p>
+    <div class="project-1-video">
+      <video controls class="time-out-intro-video">
+        <source src="videos/IAT445-TimeOut-IntroVideo.mp4" type="video/mp4">
+      </video>
+    </div>
+    </section>
+    <section>
+      <h3>Milestone 1: VR Rig implementation and interaction (February)</h3>
+      <p>My first task in the project was to create a working VR Rig and test out the many possible mechanics that the player could play around with. Using C# and Unity, I implemeted a camera system and VR setup that would allow our players to change perspectives, from a child perspective to a toy robot perspective, as guided by our initial design for "Time Out!".
+         After the initial VR rig was setup and the player was able to look around, see and move their controllers, the next step was to create simple interactables that the player could test with. The very first interactions that I programmed into the project was a simple teleportation that would activate upon the upwards flick of the right joystick (similar to the controls of Half-Life: Alyx), as well as a simple grab and throw ball that could be activated by hovering the controller over the ball.
+      </p>
+
+      <p>Once these initial interactions were implemented and tested to work properly, the next step was to create and tune the perspective switching between the child perspective and the robot perspective. By pressing the Y button on the left controller, the player should be able to teleport to the other model's position and see the world as if the player was of that particular size. Furthermore, the player would also be able to teleport in the space without issues. However, due to time constraints and issues surrounding the fine-tuning of the perspective switch, I was unable to create something polished enough without glitches for it to be implemented in our final game. As such, the team made the difficult decision to shelve the feature and pivot towards something that featured the child perspective only.</p>
+      <div class="project-1-video">
+      <a href="img/project-1-swap-code-snippet.png">  <img src="img/project-1-swap-code-snippet-first.png" alt="perspective swap code snippet one"></a>
+      <a href="img/project-1-swap-code-snippet.png">  <img src="img/project-1-swap-code-snippet-second.png" alt="perspective swap code snippet two"></a>
+      </div>
+    </section>
+    <section>
+      <h3>Milestone 2: Pivoting and polishing the player's perspective (March)</h3>
+      <p>Next, after the team had made the choice to focus solely on the child perspective and scrap the robot perspective, I made my goals to reflect that change. In this milestone, my goals were to brainstorm and implement interactions that might work in our game environment, which was created during the two milestones. First, I used the teleportation area mechanic to implement a way for the player to reach up to higher surfaces by using other objects (such as chairs or rubbish bins) as stepping stones, stacked upon one another. To do this, two separate colliders were created on the different objects, one to act as a grabbable interactor and another as the teleport pad.</p>
+      <p>After the 'climbable' objects were done and implemented properly, the next idea to implement was the doors. Using a hinge joint and an interactable door knob, the player could pull or push the door open/close. Issues I faced here was that the door collider seemed to work incorrectly, where it would occasionally either clip into the wall, the player could clip out of the door or the player would collide with the door and be unable to open correctly. After many unsuccessful attempts to change the collider area of the door or work through different workarounds, I ultimately made the decision to make the doors static and part of the environment itself.  </p>
+      <div class="project-1-video">
+      </div>
+    </section>
+    <section>
+      <h3>Milestone 3: End Goals and Final Implementation (April)</h3>
+      <p>In the final milestone, I worked to implement the player's objectives, as well as simple AI pathing for the mom model, which would act as a moving obstacle for the player in the living room. First, I implemeted the player's objective by creating a script that would count the number of toy cars that the player has collected and direct the game to the end screen when the player has placed all the cars into the chest. Next, I also added the different toy cars in a variety of locations, some of which my teammates chose the locations for in order to create a challenge.</p>
+
+      <p>For the AI pathing and behaviour of the mom character, I used Unity's NavMesh system to create a moveable path for the character to navigate through the obstacles and reach the player or other distracting objects. After the path was implemented, the next step was to create an area that would detect the player or the player's toys, designated separately from the collectible toy cars that the player needed to collect. I used a simple List system where objects would be added/removed from the stack in an orderly fashion in order to create the behaviour allowing the mom character to move and 'pick up' the objects one by one. This allowed for the player to throw toy objects at the mom's area of effect so that the mom would be distracted and not chase the player down. If the player gets unfortunately caught by the mom character, the system would force the player to restart at their starting position in their room.</p>
+      <div class="project-1-video">
+        <a href="img/project-1-pathing.png">  <img src="img/project-1-pathing.png" alt="showcasing the nav mesh pathing"></a>
+        <a href="img/project-1-pathing-code-first.png">  <img src="img/project-1-pathing-code-first.png" alt="code for adding in objects to the list for mom to follow in order"></a>
+    </div>
+    </section>
+
+    <section>
+      <h3>Reflection</h3>
+      <p>Ultimately I think the project was a great success, despite the time that we had working on it. The game's goals were mostly realized and the VR rig was implemeted and worked as intended. However, with more time, I definitely could have worked more on the different interactions, as well as fixed the mechanic of the perspective switching.</p>
+    </section>
+    <a href="index.html#works">&#8592; Back to all works</a>
+
+  </section>
+
+</div>
+</body>
+</html>
