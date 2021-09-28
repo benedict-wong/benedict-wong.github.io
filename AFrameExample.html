@@ -2,12 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <meta charset="utf-8">
-  <title>Metaverse - Bar</title>
+  <title>Metaverse - Cinema</title>
 
   <!-- Add the script linked to A-Frame to begin A-Frame injection -->
-  
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <!-- Add in a script for AFrame extras -->
@@ -20,33 +19,50 @@
   <script src="https://cdn.jsdelivr.net/gh/oneWaveAdrian/aframe-particle-system-component@aframe-1.2.0-upgrade/dist/aframe-particle-system-component.min.js"></script>
 
 
+
 </head>
 
 <body>
-  <a-scene renderer="colorManagement: true">
+  <a-scene renderer="colorManagement: true" cursor="rayOrigin:mouse">
     <!-- Define a camera entity -->
     <a-camera hitCollision position="0 1.6 1" geometry="primitive: box; height: 3.5;" aabb-collider="objects: a-box" id="camera">
       <!-- Define a cursor entity as a child entity of the camera -->
-      <a-cursor></a-cursor>
+
     </a-camera>
 
     <!-- Define assets with a-assets and a-asset-item for each individual asset -->
     <a-assets>
       <img id="skybox" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2F900951.jpg?v=1628619527598" crossorigin="anonymous">
       <img id="groundTexture" src="https://cdnb.artstation.com/p/assets/images/images/015/575/415/large/jordan-holbrook-floor-2.jpg?1548849381" crossorigin="anonymous">
-      <video id="thisVideo" autoplay loop="true" src="videos/matrix.mp4"></video>
+
+      <a-asset-item id="test-animation" src="https://cdn.glitch.com/42e94a90-f66e-4f77-8b4a-d0536d41f230%2Ftestanimation.glb?v=1632514319999" crossorigin="anonymous"></a-asset-item>
+      <video src="videos/matrix.mp4" autoplay loop="true" id="thisVideo"></video>
     </a-assets>
 
     <!-- Generate a skybox for the scene -->
     <a-sky src="#skybox" position="0 2 0"></a-sky>
-    <a-video src="#thisVideo" position=" 0 2 -5" width="16" height="9"></a-video>
 
+    <!-- Ambient light affects all entities in the scene. Turning ambient light color to pitch darkness means turning off the lights -->
+    <!-- <a-entity light="type: ambient; color: #CCC"></a-entity> -->
+
+    <!-- Alternatively, we can use a hemisphere light which has different colors for top and bottom halves of a circle -->
+    <a-entity light="type: hemisphere; color: #CCC; groundColor: #000; intensity: 2" id="hemi-light"></a-entity>
+
+    <a-box id="lightswitch" scale = "0.3 0.5 0.1" position="0 1.5 -2"></a-box>
+
+    <a-entity id="testModel" gltf-model="#test-animation" position="-10 0 10" scale="15 15 15" animation-mixer="timeScale: 0"></a-entity>
+
+    <a-box id="animationBox" scale = "0.3 0.5 0.1" position="-8 1.5 10"></a-box>
+
+    <a-video src="#thisVideo" width="16" height="9" scale="0.5 0.5 0.5" position="0 2 -5"></a-video>
     <!-- Generate a plane for the ground texture -->
     <a-plane rotation="-90 0 0" width="30" height="30" src="#groundTexture" repeat="10 10"></a-plane>
 
 
   </a-scene>
 
+  <script src="../js/lightswitch.js"></script>
+  <script src="../js/animation-player.js"></script>
 
 </body>
 
