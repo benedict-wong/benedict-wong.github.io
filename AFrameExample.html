@@ -1,106 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>A-Frame Testbed</title>
 
-    <!-- Add the script linked to A-Frame to begin A-Frame injection -->
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title>Metaverse - Bar</title>
 
-    <!-- Add in a script for AFrame extras -->
-    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  <!-- Add the script linked to A-Frame to begin A-Frame injection -->
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <!-- Add in the collider bounding box script -->
-    <script src="https://unpkg.com/aframe-aabb-collider-component@2.2.1/dist/aframe-aabb-collider-component.min.js"></script>
+  <!-- Add in a script for AFrame extras -->
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
 
-  </head>
-  <body>
-    <canvas id="canvas"><img id="textureImg" src="Models/WheelTexture.png"></canvas>
-    <a-scene renderer="colorManagement: true">
-      <!-- Define a camera entity -->
-      <a-camera hitCollision position="0 1.6 1" geometry="primitive: box; height: 3.5;" aabb-collider="objects: a-box" id="camera" >
+  <!-- Add in the collider bounding box script -->
+  <script src="https://unpkg.com/aframe-aabb-collider-component@2.2.1/dist/aframe-aabb-collider-component.min.js"></script>
 
+  <!-- Add in the particle system script -->
+  <script src="https://cdn.jsdelivr.net/gh/oneWaveAdrian/aframe-particle-system-component@aframe-1.2.0-upgrade/dist/aframe-particle-system-component.min.js"></script>
+
+
+</head>
+
+<body>
+  <a-scene renderer="colorManagement: true">
+    <!-- Define a camera entity -->
+    <a-camera hitCollision position="0 1.6 1" geometry="primitive: box; height: 3.5;" aabb-collider="objects: a-box" id="camera">
       <!-- Define a cursor entity as a child entity of the camera -->
       <a-cursor></a-cursor>
+    </a-camera>
+
+    <!-- Define assets with a-assets and a-asset-item for each individual asset -->
+    <a-assets>
+      <img id="skybox" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2F900951.jpg?v=1628619527598" crossorigin="anonymous">
+      <img id="groundTexture" src="https://cdnb.artstation.com/p/assets/images/images/015/575/415/large/jordan-holbrook-floor-2.jpg?1548849381" crossorigin="anonymous">
+    </a-assets>
+
+    <!-- Generate a skybox for the scene -->
+    <a-sky src="#skybox" position="0 2 0"></a-sky>
+    <a-video src="https://www.3dpara.de/fc/media/POLITICA_26AGO_PR.mp4" position=" 0 2 -5" width="19" height="9"></a-video>
+
+    <!-- Generate a plane for the ground texture -->
+    <a-plane rotation="-90 0 0" width="30" height="30" src="#groundTexture" repeat="10 10"></a-plane>
 
 
-      </a-camera>
-      <!-- Generate a raycaster for the color retrieval -->
-      <!-- <a-entity raycaster="showLine: false; lineColor: #000; interval: 500; objects: #wheelModel" position="0 2 -1.2" rotation="0 0 0" id="raycast" raycast-collision></a-entity> -->
-
-      <!-- <a-box color="#404adb" position="0 1.5 -2" rotation="0 0 0"></a-box> -->
+  </a-scene>
 
 
-      </a-entity>
+</body>
 
-      <!-- Add a Light to the scene -->
-      <!-- <a-entity light="type:point; color: #FFF; intensity: 0.25; distance:0" position: "0 1.8 -2.5"></a-entity> -->
-      <!-- Define assets with a-assets and a-asset-item for each individual asset -->
-      <a-assets>
-        <!-- <a-asset-item id="testModel" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2FWheel.glb?v=1628023712024"></a-asset-item>
-        <a-asset-item id="arrow" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2FArrowWithStandGLB.glb?v=1628618393432"></a-asset-item> -->
-        <a-asset-item id="table" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2FTable(LowTri).glb?v=1628619325335"></a-asset-item>
-        <a-asset-item id="pavilion" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2FPavilion.glb?v=1628626525079"></a-asset-item>
-        <img id="skybox" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2F900951.jpg?v=1628619527598" crossorigin="anonymous">
-
-        <img id="groundTexture" src="https://cdn.glitch.com/a4369072-ce33-4379-8d3c-83e8111319d7%2FPlaneBottom.jpg?v=1628547511987" crossorigin="anonymous">
-
-      </a-assets>
-      <a-sky src="#skybox" position="0 2 0"></a-sky>
-
-
-      <!-- Generate the asset into an entity with a-entity -->
-      <!-- <a-entity id="wheelModel" gltf-model="#testModel" position= "0 1.5 -2" rotation="0 0 0" animation__spin=""></a-entity> -->
-      <a-entity id="table" gltf-model="#table" position= "1.8 0 -3" rotation="0 0 0" ></a-entity>
-      <a-entity id="pavilion" gltf-model="#pavilion" position= "1 0 -3" rotation="0 90 0" scale="1 1.45 1.5" ></a-entity>
-      <!-- <a-entity id="arrow" gltf-model="#arrow" position= "0 0 -2.25" rotation="0 0 0" scale="1 1.12 1"></a-entity> -->
-
-      <!-- Generate the text for the prmpt and output message -->
-      <!-- <a-entity position="0 2.75 -1.5"
-                text="value: Hello World;
-                      color: #000000;
-                      align: center;
-
-
-                      "
-                  geometry="primitive: box;
-                            depth: 0;
-                            height: 0.045;
-                            width: 0.56;
-                            "
-                  material="color: #ebd9b7"
-                  scale="5 5 5"
-                  id="displayText">
-      </a-entity>
-      <a-entity position="0 0.3 -1.5"
-                text="value: Spin the wheel to get color ;
-                      color: #000000;
-                      align: center;
-
-                      "
-                  geometry="primitive: box;
-                            depth: 0;
-                            height: 0.045;
-                            width: 0.85;
-                            "
-                  material="color: #ebd9b7"
-
-
-                  scale="5 5 5"
-                  id="colorText">
-      </a-entity> -->
-      <!-- Generate a plane for the ground texture -->
-      <a-plane rotation="-90 0 0" width="30" height="30" src="#groundTexture" repeat="10 10"></a-plane>
-
-      <!-- set a bounding box for collision detection -->
-      <!-- <a-box class="box" color="red" position= "0 0 0" geometry="width:2.06" ></a-box> -->
-
-    </a-scene>
-    <!-- <script src="JavaScript/wheelTextureDraw.js"></script> -->
-    <!-- <script src="JavaScript/test.js"></script>
-    <script src="JavaScript/color-getter-raycaster.js"></script>
-    <script src="JavaScript/wheel-animator.js"></script> -->
-
-  </body>
 </html>
