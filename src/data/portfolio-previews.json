@@ -1,0 +1,28 @@
+{
+    "previews": [
+        {
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website showcasing projects and skills.",
+        "image": "./assets/images/project-1/TimeOut.png",
+        "link": "./src/screens/project-1.html",
+        "type": "Project",
+        "date": "July 2025"
+        },
+        {
+        "title": "E-commerce Platform",
+        "description": "An online store with a variety of products and secure payment options.",
+        "image": "./assets/images/project-1/TimeOut.png",
+        "link": "./screens/project-2.html",
+        "type": "Project",
+        "date": "July 2025"
+        },
+        {
+        "title": "Blog Site",
+        "description": "A blog site featuring articles on technology, programming, and web development.",
+        "image": "./assets/images/project-1/TimeOut.png",
+        "link": "./screens/project-3.html",
+        "type": "Project",
+        "date": "July 2025"
+        }
+    ]
+}
