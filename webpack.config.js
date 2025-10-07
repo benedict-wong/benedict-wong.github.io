@@ -1,15 +1,24 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
   entry: './src/app.js', // Entry point for your app
   devtool: 'inline-source-map',
   devServer: {
     server: 'https',
+    static: {
+      directory: path.join(__dirname, 'screens'),
+    },
     allowedHosts: ['.ngrok.io'],
     port: 3000,
     hot: true,
     open: true,
+    watchFiles: {
+      paths: ['src/**/*.html', 'src/**/*.js', 'src/**/*.json'], // Watch for changes in HTML, JS, and JSON files.
+      options: {
+        usePolling: true, // Optional: Use polling for file changes (useful for certain environments)
+      },
+    },
   },
   output: {
     filename: 'bundle.js', // Output JavaScript file
@@ -21,10 +30,16 @@ module.exports = {
       template: './src/index.ejs', // Use your index.html as a template
       filename: 'index.html', // Output HTML file
     }),
+    new HtmlWebpackPlugin({
+      template: './src/project.ejs', // Use your index.html as a template
+      filename: 'project.html', // Output HTML file
+    }),
+    new CopyPlugin({
+      patterns: [{ from: path.resolve(__dirname, 'src/public'), to: 'public' }],
+    }),
   ],
   module: {
     rules: [
-      
       {
         test: /\.html$/, // Match .html files
         loader: 'html-loader', // Use html-loader to process HTML files
@@ -45,17 +60,17 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: [
-        // Creates style nodes from JS strings
+          // Creates style nodes from JS strings
           'style-loader',
           {
             loader: 'css-loader',
             options: {
-              url: true
-            }
+              url: true,
+            },
           },
           // Compiles Sass -> CSS
-          'sass-loader'
-        ]
+          'sass-loader',
+        ],
       },
       {
         test: /\.css$/,
@@ -64,19 +79,19 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              url: true
-            }
-          }
-        ]
+              url: true,
+            },
+          },
+        ],
       },
       {
         test: /\.(mp4|png|jpe?g|gif|webm)$/i,
         type: 'asset/resource',
-        exclude: /models/
+        exclude: /models/,
       },
       {
         test: /\.(mp3|svg|m4a|ico|vtt|woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource'
+        type: 'asset/resource',
       },
       {
         test: /\.(glb|obj|fbx)$/i,
@@ -84,8 +99,8 @@ module.exports = {
         options: {
           esModule: false,
           outputPath: '/assets/models',
-          publicPath: 'assets/models/'
-        }
+          publicPath: 'assets/models/',
+        },
       },
       {
         test: /\.gltf$/,
@@ -93,8 +108,8 @@ module.exports = {
         options: {
           esModule: false,
           outputPath: '/assets/models',
-          publicPath: 'assets/models/'
-        }
+          publicPath: 'assets/models/',
+        },
       },
       {
         test: /models.*\.(mp4|bin|png|jpe?g|gif|webm)$/,
@@ -102,8 +117,8 @@ module.exports = {
         options: {
           esModule: false,
           outputPath: '/assets/models/gltf-assets',
-          publicPath: './gltf-assets/'
-        }
+          publicPath: './gltf-assets/',
+        },
       },
       {
         test: /\.wasm$/,
@@ -115,4 +130,4 @@ module.exports = {
     asyncWebAssembly: true,
   },
   mode: 'development', // Change to 'production' for production builds
-};
+}
