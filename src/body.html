@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr" class="about-page">
-  <head>
-    <meta charset="utf-8">
-    <!-- <script src="js/functions.js"></script> -->
-    <script src="https://kit.fontawesome.com/80398c91ba.js"></script>
-    <!-- <link rel="stylesheet" href="css/normalize.css"/> -->
-    <!-- <link rel="stylesheet" href="css/style.css"/> -->
-    <!-- <link rel="stylesheet" href="css/fonts.css"/> -->
-    <!-- <link rel="stylesheet" href="css/mobile.css"/> -->
-    <!-- <noscript><link rel="stylesheet" href="css/noscript.css"/></noscript> -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About: Benedict Wong</title>
-  </head>
-  <body class="index-body"  portfolio-generate>
-    <section class="section-nav">
-      <nav>
-        <a href="index.html#home">Home</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#portfolio">Portfolio</a>
-        <a href="index.html#contact">Contact</a>
-
-      </nav>
-    </section>
-    <section class="landing-page" id="home">
-
-
-
-
+<body class="index-body" portfolio-generate parse-csv>
+  <section class="section-nav">
+    <nav class="section-nav-container">
+      <a class="braced-link" href="#">Home</a>
+      <a class="braced-link" href="index.html#portfolio">Portfolio</a>
+      <a href="./assets/misc/Benedict Wong - Resume.pdf" target="_blank" class="braced-link">Resume</a>
+    </nav>
+  </section>
+  <section class="landing-page" id="home">
     <!-- <section class="landing-content-container">
       <section class="landing-content">
         <h1>Hello. I'm Benedict Wong.</h1>
@@ -43,30 +21,43 @@
   </section> -->
   </section>
 
-<section class="about-container"  id="about">
-
-  <section class="section-content about-content">
-
-    <section class="about-title">
-      <!-- <h1>ABOUT ME</h1> -->
-    </section>
+  <section class="about-container" id="about">
+    <section class="section-content about-content">
+      <section class="about-title">
+        <!-- <h1>ABOUT ME</h1> -->
+      </section>
 
       <article id="about-article">
         <div class="about-article-left">
-          <img src="./assets/images/profile//profile.png" class="about-profile-image" alt="Profile picture of Benedict Wong">
-
+          <img src="./assets/images/profile//profile.png" class="about-profile-image" alt="Profile picture of Benedict Wong" />
         </div>
 
         <div class="about-article-right">
-          <h1>About Me
+          <h1>
+            I'm Benedict.
             <!-- <a href="https://github.com/Sanada-Yukimura"> <i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/benedict-wong-9b3047125"><i class="fab fa-linkedin"></i></a> -->
           </h1>
-  
-          
-        <p>
-          <!-- First person bio or third person bio? -->
-          Hello, my name is Benedict Wong. I’m a front-end web engineer with a focus in React and WebXR.</p>
+          <p class="about-article-intro">
+            I'm a
+            <span class="about-article-intro-bold">detail-oriented front-end web</span>
+            and
+            <span class="about-article-intro-bold">webXR engineer</span>
+            creating
+            <span class="about-article-intro-bold">premium, interactive</span>
+            experiences for innovative brands seeking to launch
+            <span class="about-article-intro-bold">immersive events</span>
+            and
+            <span class="about-article-intro-bold">promotions.</span>
+          </p>
+          <div class="about-article-links">
+            <img src="./assets/images/profile/github.png" class="about-article-link-icon" alt="GitHub icon" onclick="window.location.href='https://github.com/benedict-wong'" />
+            <img src="./assets/images/profile/linkedin.png" class="about-article-link-icon" alt="LinkedIn icon" onclick="" />
+            <img src="./assets/images/profile/email.png" class="about-article-link-icon" alt="Email icon" onclick="" />
+          </div>
+
+          <!-- <p>
+          I'm Benedict. I’m a front-end web engineer with a focus in React and WebXR.</p>
           <p>
             I am a engineer whose interests lie in creating and developing high quality interactive experiences for all audiences. In order to do so, my goal is to develop applications where users make immersive and interactive decisions through various mechanics that push the limit of the user's device.
           </p>
@@ -75,23 +66,17 @@
           </p>
           <p>
             Most recently, I've taken up ReactJS as an alternative to traditional HTML as React provides a more structured approach to modular component development, something I advocate heavily for when working with projects. I've also begun to experiment with Snapchat's Lens Studio and Camera Kit API as alternatives to WebXR development.
-          </p>
-
+          </p> -->
         </div>
-        
-        
-
-    </article>
-
+      </article>
+    </section>
   </section>
 
-</section>
-
-<section class="portfolio-container" id="portfolio">
-  <h1>Portfolio</h1>
-  <hr>
-  <section class="portfolio-content-container">
-    <!-- <div class="portfolio-square">
+  <section class="portfolio-container" id="portfolio">
+    <h1>Portfolio</h1>
+    <hr />
+    <section class="portfolio-content-container">
+      <!-- <div class="portfolio-square">
       <img src="./assets/images/project-1/TimeOut.png" class="portfolio-square-image">
       <h2 class="portolio-square-title">Placeholder Title</h2>
       <p class="portfolio-square-description">Placeholder description here</p>
@@ -101,34 +86,19 @@
         <p class="portfolio-square-date">July 2025</p>
       </div>    
     </div> -->
-
+    </section>
   </section>
 
-</section>
-
-<section class="about-container"  id="contact">
-
-  <section class="section-content contact-content">
-
-    <section class="contact-title">
-    </section>
+  <section class="footer-container" id="contact">
+    <section class="section-content contact-content">
+      <section class="contact-title"></section>
 
       <article>
-        <h1 class="contact-me-title">Contact
-          <a href="https://github.com/Sanada-Yukimura"> <i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/benedict-wong-9b3047125"><i class="fab fa-linkedin"></i></a>
-        </h1>
-
-        <p>
-      If you've reached this section, then that means you're interested in me and my work! In that case, feel free to contact me at <a href="mailto:wong.benedict1996@gmail.com" class="contact-email-inline">wong.benedict1996@gmail.com.</a> </p>
-      <p>Please also feel free to explore my GitHub and LinkedIn profiles, which are located in the icons above.</p>
-
-    </article>
-
+        <p class="footer-copyright">
+          © Benedict Wong
+          <span class="footer-current-year"></span>
+        </p>
+      </article>
+    </section>
   </section>
-
-</section>
-
-  </body>
-</html>
-
+</body>
