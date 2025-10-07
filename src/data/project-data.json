@@ -1,0 +1,189 @@
+﻿[
+    {
+        "name":  "Your World of AMEX",
+        "id":  "YWOA",
+        "date":  "March 2024",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End",
+        "overview":  "Your World of AMEX (YWOA) was a project developed with DCG One for American Express, highlighting the benefits of Green, Gold, and Platinum cards. The Augmented Reality experience featured a 3D island rising from under the ground, divided into four quadrants showcasing Travel, Personal, Hotel and Dining benefits. A voice-over assistant guided users through the benefits, while SLAM elements, tappable easter eggs and animated 2D/3D assets added interactivity and engagement.\n\nWe optimized the experience for a wide range of devices, ranging from the iPhone 8 released in 2017 to modern Apple and Android phones and tablets, balancing texture quality to ensure smooth performance and preventing crashes on low-end devices whithout compromising visuals and quality on high-end devices. Accessibility options were also implemented for users who required them.\n\nAs the lead front-end developer in this project, I integrated 2D and 3D assets provided by the respective creative teams at both Aircards and DCG One. I developed interactive elements, CTAs, UI components and made multiple quality checks to ensure smooth performance across the aforementioned range of devices. I also oversaw database design and population, ensuring seamless integration for both our team at Aircards and the developer at DCG One. I also participated in weekly meetings with DCG One to report progress, review feature updates and fixes, and brainstorm solutions to feedback from the American Express creative team.",
+        "impact":  "* The AR experience greatly impressed American Express executives in its high-quality design and innovative advertisement approach, prompting them to greenlight a second project mid-development, demonstrating the value and effectiveness of the immersive experience.",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Database design done through spreadsheet, transferred to JSON.",
+        "responsibilities":  "Lead Developer: I led front-end development by integrating 2D and 3D assets and building interactive A-Frame, UI and CTA components. I coordinated weekly sprints with both teams, providing detailed changelogs on development progress, noted down tasks through Jira and Asana, and helped to brainstorm solutions to feedback from the American Express and DCG One teams. \n\nQuality Assurance: I ensured stable performance and high visual fidelity across image textures and video assets. I conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. I maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.\n\nContent Management: I collaborated with DCG One to develop a centralized database for text and visual assets, enabling asychronous updates and seamless integration into the immersive experience."
+    },
+    {
+        "name":  "Haribo Easter Egg Hunt",
+        "id":  "HariboEasterEggHunt",
+        "date":  "Feb 2022-2024",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Proud to be FIFTY",
+        "id":  "ProudToBeFifty",
+        "date":  "May 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Play for the City",
+        "id":  "PlayForTheCity",
+        "date":  "April 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "#AnnounceYourself",
+        "id":  "AnnounceYourself",
+        "date":  "Jan 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Where Performance Meets Purpose",
+        "id":  "WPMP",
+        "date":  "June 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Spin Genie Portal",
+        "id":  "SpinGenie",
+        "date":  "Sep 2024",
+        "platform":  "Mobile",
+        "role":  "Front-End",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Spirits Choice",
+        "id":  "SpiritsChoice",
+        "date":  "July 2024",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Dare Rainforest Alliance",
+        "id":  "DareIcedCoffee",
+        "date":  "Aug 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Unfiltered Facts",
+        "id":  "UnfilteredFacts",
+        "date":  "March 2024",
+        "platform":  "Snapchat Filter",
+        "role":  "Front-End",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Full Fibre House",
+        "id":  "FullFibreHouse",
+        "date":  "Sep 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Absolute Scale F1 Car",
+        "id":  "F1Car",
+        "date":  "Apr 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Mojo Character SLAM Experience",
+        "id":  "PlanetMojo",
+        "date":  "May 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Shirt of Firsts",
+        "id":  "ShirtOfFirsts",
+        "date":  "Dec 2022",
+        "platform":  "Desktop",
+        "role":  "Front-End, Back-End",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Secret Santa Postal Service",
+        "id":  "SecretSanta",
+        "date":  "Nov 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Time Out",
+        "id":  "TimeOut",
+        "date":  "March 2021",
+        "platform":  "Unity VR",
+        "role":  "Unity Developer",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  ""
+    },
+    {
+        "name":  "Homebound",
+        "id":  "Homebound",
+        "date":  "Oct 2020",
+        "platform":  "Desktop",
+        "role":  "3D Generalist",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  null
+    }
+]

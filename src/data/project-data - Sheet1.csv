@@ -1,0 +1,26 @@
+name,id,date,platform,role,overview,impact,technicalDetails,responsibilities
+Your World of AMEX,YWOA,March 2024,Mobile,"Front-End, Back-End","Your World of AMEX (YWOA) was a project developed with DCG One for American Express, highlighting the benefits of Green, Gold, and Platinum cards. The Augmented Reality experience featured a 3D island rising from under the ground, divided into four quadrants showcasing Travel, Personal, Hotel and Dining benefits. A voice-over assistant guided users through the benefits, while SLAM elements, tappable easter eggs and animated 2D/3D assets added interactivity and engagement.
+
+We optimized the experience for a wide range of devices, ranging from the iPhone 8 released in 2017 to modern Apple and Android phones and tablets, balancing texture quality to ensure smooth performance and preventing crashes on low-end devices whithout compromising visuals and quality on high-end devices. Accessibility options were also implemented for users who required them.
+
+As the lead front-end developer in this project, I integrated 2D and 3D assets provided by the respective creative teams at both Aircards and DCG One. I developed interactive elements, CTAs, UI components and made multiple quality checks to ensure smooth performance across the aforementioned range of devices. I also oversaw database design and population, ensuring seamless integration for both our team at Aircards and the developer at DCG One. I also participated in weekly meetings with DCG One to report progress, review feature updates and fixes, and brainstorm solutions to feedback from the American Express creative team.","* The AR experience greatly impressed American Express executives in its high-quality design and innovative advertisement approach, prompting them to greenlight a second project mid-development, demonstrating the value and effectiveness of the immersive experience.","WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Database design done through spreadsheet, transferred to JSON. ","Lead Developer: I led front-end development by integrating 2D and 3D assets and building interactive A-Frame, UI and CTA components. I coordinated weekly sprints with both teams, providing detailed changelogs on development progress, noted down tasks through Jira and Asana, and helped to brainstorm solutions to feedback from the American Express and DCG One teams. 
+
+Quality Assurance: I ensured stable performance and high visual fidelity across image textures and video assets. I conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. I maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.
+
+Content Management: I collaborated with DCG One to develop a centralized database for text and visual assets, enabling asychronous updates and seamless integration into the immersive experience."
+Haribo Easter Egg Hunt,HariboEasterEggHunt,Feb 2022-2024,Mobile,"Front-End, Back-End, UX/UI",,,,
+Proud to be FIFTY,ProudToBeFifty,May 2023,Mobile,"Front-End, Back-End, UX/UI",,,,
+Play for the City,PlayForTheCity,April 2023,Mobile,Front-End,,,,
+#AnnounceYourself,AnnounceYourself,Jan 2022,Mobile,"Front-End, UX/UI",,,,
+Where Performance Meets Purpose,WPMP,June 2023,Mobile,"Front-End, UX/UI",,,,
+Spin Genie Portal,SpinGenie,Sep 2024,Mobile,Front-End,,,,
+Spirits Choice,SpiritsChoice,July 2024,Mobile,"Front-End, Back-End",,,,
+Dare Rainforest Alliance,DareIcedCoffee,Aug 2022,Mobile,"Front-End, UX/UI",,,,
+Unfiltered Facts,UnfilteredFacts,March 2024,Snapchat Filter,Front-End,,,,
+Full Fibre House,FullFibreHouse,Sep 2022,Mobile,Front-End,,,,
+Absolute Scale F1 Car,F1Car,Apr 2023,Mobile,"Front-End, UX/UI",,,,
+Mojo Character SLAM Experience,PlanetMojo,May 2022,Mobile,"Front-End, UX/UI",,,,
+Shirt of Firsts,ShirtOfFirsts,Dec 2022,Desktop,"Front-End, Back-End",,,,
+Secret Santa Postal Service,SecretSanta,Nov 2023,Mobile,"Front-End, UX/UI",,,,
+Time Out,TimeOut,March 2021,Unity VR,Unity Developer,,,,
+Homebound,Homebound,Oct 2020,Desktop,3D Generalist,,,,

@@ -1,28 +1,172 @@
 {
-    "previews": [
-        {
-        "title": "Portfolio Website",
-        "description": "A personal portfolio website showcasing projects and skills.",
-        "image": "./assets/images/project-1/TimeOut.png",
-        "link": "./src/screens/project-1.html",
-        "type": "Project",
-        "date": "July 2025"
-        },
-        {
-        "title": "E-commerce Platform",
-        "description": "An online store with a variety of products and secure payment options.",
-        "image": "./assets/images/project-1/TimeOut.png",
-        "link": "./screens/project-2.html",
-        "type": "Project",
-        "date": "July 2025"
-        },
-        {
-        "title": "Blog Site",
-        "description": "A blog site featuring articles on technology, programming, and web development.",
-        "image": "./assets/images/project-1/TimeOut.png",
-        "link": "./screens/project-3.html",
-        "type": "Project",
-        "date": "July 2025"
-        }
-    ]
+  "previews": [
+    {
+      "title": "American Express | Your World of AMEX",
+      "id": "YWOA",
+      "description": "A personal portfolio website showcasing projects and skills.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "link": "./src/screens/project-1.html",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "March 2024",
+      "hiddenDate": "2024-03"
+    },
+    {
+      "title": "Haribo | Haribo Easter Egg Hunt",
+      "id": "HariboEasterEggHunt",
+      "description": "An online store with a variety of products and secure payment options.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "link": "./screens/project-2.html",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "Feb 2022 - 2024",
+      "hiddenDate": "2022-02"
+    },
+    {
+      "title": "Kalik | Proud to be FIFTY",
+      "id": "ProudToBeFifty",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "May 2023",
+      "hiddenDate": "2023-05"
+    },
+    {
+      "title": "Manchester City OKX | Play for the City",
+      "id": "PlayForTheCity",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "Ready Player Me", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "April 2023",
+      "hiddenDate": "2023-04"
+    },
+    {
+      "title": "Manchester City TECNO Mobile | #AnnounceYourself",
+      "id": "AnnounceYourself",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "360 walk-around", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "Jan 2022",
+      "hiddenDate": "2022-01"
+    },
+    {
+      "title": "Owens Corning | Where Performance Meets Purpose",
+      "id": "WPMP",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "June 2023",
+      "hiddenDate": "2023-06"
+    },
+    {
+      "title": "Spin Genie | Spin Genie Portal",
+      "id": "SpinGenie",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "tags": ["AR", "3D Environment", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "type": "Mobile",
+      "date": "Sept 2024",
+      "hiddenDate": "2024-09"
+    },
+    {
+      "title": "Diageo | Spirits Choice",
+      "id": "SpiritsChoice",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["HTML", "CSS", "JavaScript", "Vue", "Nuxt"],
+      "date": "July 2024",
+      "hiddenDate": "2024-07"
+    },
+    {
+      "title": "Dare Iced Coffee | Dare Rainforest Alliance ",
+      "id": "DareIcedCoffee",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "Aug 2022",
+      "hiddenDate": "2022-08",
+      "url": "https://www.adnews.com.au/news/yahoo-creative-studios-brings-the-rainforest-to-life-for-dare-iced-coffee"
+    },
+    {
+      "title": "US Health Department | Unfiltered Facts",
+      "id": "UnfilteredFacts",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "Snap Lens"],
+      "date": "March 2024",
+      "hiddenDate": "2024-03"
+    },
+    {
+      "title": "EE | Full Fibre House",
+      "id": "FullFibreHouse",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "Sept 2022",
+      "hiddenDate": "2022-09"
+    },
+    {
+      "title": "Google x McLaren | Absolute Scale F1 Car",
+      "id": "F1Car",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+      "date": "April 2023",
+      "hiddenDate": "2023-04"
+    },
+    {
+      "title": "Planet Mojo | Mojo Character SLAM Experience",
+      "id": "PlanetMojo",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "date": "May 2022",
+      "hiddenDate": "2022-05"
+    },
+    {
+      "title": "GOAL x Clear | Shirt of Firsts",
+      "id": "ShirtOfFirsts",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Desktop",
+      "date": "Dec 2022",
+      "hiddenDate": "2022-12"
+    },
+    {
+      "title": "Cadbury | Secret Santa Postal Service",
+      "id": "SecretSanta",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Mobile",
+      "date": "Nov 2023",
+      "hiddenDate": "2023-11"
+    },
+    {
+      "title": "Time Out | Time Out Virtual Reality Game",
+      "id": "TimeOut",
+      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Unity VR",
+      "date": "March 2021",
+      "hiddenDate": "2021-03"
+    },
+    {
+      "title": "Homebound | Homebound 3D Rogue-like Game",
+      "id": "Homebound",
+      "description": "An Isometric exploratory roguelike game with crafting elements. Uses a comedic tone as the premise involves catching different creatures and putting them together to build a spaceship to get home.",
+      "image": "./assets/images/project-1/TimeOut.png",
+      "type": "Unity 3D",
+      "date": "Oct 2020",
+      "hiddenDate": "2020-10"
+    }
+  ]
 }
