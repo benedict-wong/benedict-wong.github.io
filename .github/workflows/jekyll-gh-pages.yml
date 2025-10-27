@@ -36,6 +36,13 @@ jobs:
       - name: Build with Webpack
         run: npm run prod
 
+      # Copy Webpack output into _site so GitHub Pages finds index.html at the root
+      - name: Copy Webpack output to _site
+        run: |
+          mkdir -p _site
+          cp -r dist/* _site/
+          ls -R _site  # optional: verify contents
+
       # Setup Ruby for Jekyll build
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
