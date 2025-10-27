@@ -57,19 +57,18 @@ jobs:
           source: ./
           destination: ./_site_temp
 
-      # 8️⃣ Rename temporary folder to _site for artifact upload
+      # 8️⃣ Copy contents to final folder to flatten structure
       - name: Prepare final _site folder
-        run: mv _site_temp _site
+        run: |
+          mkdir -p _site_final
+          cp -r _site_temp/* _site_final/
+          ls -R _site_final
 
-      # 9️⃣ Verify final _site contents
-      - name: Verify _site contents
-        run: ls -R _site
-
-      # 🔟 Upload artifact for deployment
+      # 9️⃣ Upload artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./_site_final
 
   deploy:
     environment:
