@@ -39,7 +39,13 @@ jobs:
       # 5️⃣ Debug: List Build Output
       - name: List Build Output
         run: ls -la ./dist
+      - name: Debug List All Files in dist
+        run: find ./dist -type f -exec ls -lah {} \;
+      - name: Remove Symlinks
+        run: find ./dist -type l -exec rm {} \;
 
+      - name: Check Total Size of dist
+        run: du -sh ./dist
       # 6️⃣ Disable Jekyll
       - name: Disable Jekyll
         run: touch dist/.nojekyll
