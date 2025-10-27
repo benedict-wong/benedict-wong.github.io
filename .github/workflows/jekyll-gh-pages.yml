@@ -18,54 +18,59 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checkout repository
+      # 1️⃣ Checkout repository
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Setup Node.js for Webpack build
+      # 2️⃣ Setup Node.js for Webpack
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # Install Node dependencies (includes webpack, ejs-loader, etc.)
+      # 3️⃣ Install npm dependencies
       - name: Install npm dependencies
         run: npm ci
 
-      # Build assets and index.html using Webpack
+      # 4️⃣ Build assets and index.html using Webpack
       - name: Build with Webpack
         run: npm run prod
 
-      # Copy Webpack output into _site so GitHub Pages finds index.html at the root
+      # 5️⃣ Copy Webpack output into _site (flattened)
       - name: Copy Webpack output to _site
         run: |
           mkdir -p _site
-          cp -r dist/* _site/
-          ls -R _site  # optional: verify contents
+          cp -r dist/* _site/    # <-- key: copy contents, not folder
+          echo "Contents of _site after Webpack build:"
+          ls -R _site
 
-      # Setup Ruby for Jekyll build
+      # 6️⃣ Setup Ruby for Jekyll build
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2' # or match your Gemfile
+          ruby-version: '3.2'
           bundler-cache: true
 
-      # Setup Pages
+      # 7️⃣ Setup Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Build with Jekyll (output to _site)
+      # 8️⃣ Build with Jekyll into the same _site folder
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
 
-      # Upload final site artifact for deployment
+      # 9️⃣ Verify final _site contents
+      - name: Verify _site contents
+        run: ls -R _site
+
+      # 🔟 Upload flattened _site artifact for deployment
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ./_site/*     # <-- key: upload contents, not folder
 
   deploy:
     environment:
