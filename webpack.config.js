@@ -35,7 +35,9 @@ module.exports = {
       filename: 'project.html', // Output HTML file
     }),
     new CopyPlugin({
-      patterns: [{ from: path.resolve(__dirname, 'src/public'), to: 'public' }],
+      patterns: [
+        { from: path.resolve(__dirname, 'src/public'), to: 'public' }, // Copy public folder to dist/public
+      ],
     }),
   ],
   module: {
