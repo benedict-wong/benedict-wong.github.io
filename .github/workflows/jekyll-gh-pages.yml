@@ -36,35 +36,40 @@ jobs:
       - name: Build with Webpack
         run: npm run prod
 
-      # 5️⃣ Setup Pages environment
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      # 6️⃣ Build Jekyll site into _site (preinstalled Jekyll, no Gemfile needed)
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-
-      # 7️⃣ Copy Webpack output into _site AFTER Jekyll
-      - name: Copy Webpack output to _site
+      # 5️⃣ Copy Webpack output to temporary folder
+      - name: Copy Webpack output to _site_temp
         run: |
+          mkdir -p _site_temp
           if [ -d dist ] && [ "$(ls -A dist)" ]; then
-            cp -r dist/* _site/
+            cp -r dist/* _site_temp/
           else
             echo "Warning: Webpack output folder 'dist' is empty!"
           fi
 
-      # 8️⃣ Verify final _site contents
+      # 6️⃣ Setup Pages environment
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # 7️⃣ Build Jekyll into the same temporary folder
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site_temp
+
+      # 8️⃣ Rename temporary folder to _site for artifact upload
+      - name: Prepare final _site folder
+        run: mv _site_temp _site
+
+      # 9️⃣ Verify final _site contents
       - name: Verify _site contents
         run: ls -R _site
 
-      # 9️⃣ Upload artifact for deployment
+      # 🔟 Upload artifact for deployment
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site   # ✅ Upload folder itself, not /*
+          path: ./_site
 
   deploy:
     environment:
