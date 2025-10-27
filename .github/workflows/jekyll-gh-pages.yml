@@ -36,41 +36,39 @@ jobs:
       - name: Build with Webpack
         run: npm run prod
 
-      # 5️⃣ Copy Webpack output into _site (flattened)
-      - name: Copy Webpack output to _site
-        run: |
-          mkdir -p _site
-          cp -r dist/* _site/    # <-- key: copy contents, not folder
-          echo "Contents of _site after Webpack build:"
-          ls -R _site
-
-      # 6️⃣ Setup Ruby for Jekyll build
+      # 5️⃣ Setup Ruby for Jekyll build
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
 
-      # 7️⃣ Setup Pages environment
+      # 6️⃣ Setup Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # 8️⃣ Build with Jekyll into the same _site folder
+      # 7️⃣ Build Jekyll site into _site
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+        run: bundle exec jekyll build --source . --destination ./_site
+
+      # 8️⃣ Copy Webpack output into _site AFTER Jekyll
+      - name: Copy Webpack output to _site
+        run: |
+          if [ -d dist ] && [ "$(ls -A dist)" ]; then
+            cp -r dist/* _site/
+          else
+            echo "Warning: Webpack output folder 'dist' is empty!"
+          fi
 
       # 9️⃣ Verify final _site contents
       - name: Verify _site contents
         run: ls -R _site
 
-      # 🔟 Upload flattened _site artifact for deployment
+      # 🔟 Upload artifact for deployment
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site/*     # <-- key: upload contents, not folder
+          path: ./_site    # <-- do NOT use /*, upload folder itself
 
   deploy:
     environment:
