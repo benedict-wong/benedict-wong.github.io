@@ -42,7 +42,7 @@ export const ProjectGenerate = {
     } else {
       let videoFile
       try {
-        videoFile = require(`../assets/videos/${data}.mp4`)
+        videoFile = require(`public/videos/${data}.mp4`)
       } catch {}
 
       if (videoFile) {
