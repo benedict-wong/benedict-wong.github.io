@@ -1,0 +1,72 @@
+name: Build and Deploy Jekyll + Webpack
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout repository
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Setup Node.js for Webpack build
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Install Node dependencies (includes webpack, ejs-loader, etc.)
+      - name: Install npm dependencies
+        run: npm ci
+
+      # Build assets and index.html using Webpack
+      - name: Build with Webpack
+        run: npm run build
+
+      # Setup Ruby for Jekyll build
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2' # or match your Gemfile
+          bundler-cache: true
+
+      # Setup Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Build with Jekyll (output to _site)
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      # Upload final site artifact for deployment
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
