@@ -39,23 +39,47 @@ jobs:
       # 5️⃣ Debug: List Build Output
       - name: List Build Output
         run: ls -la ./dist
+
       - name: Debug List All Files in dist
         run: find ./dist -type f -exec ls -lah {} \;
-      - name: Remove Symlinks
-        run: find ./dist -type l -exec rm {} \;
 
+      # 6️⃣ Remove symlinks before deployment (if any)
+      - name: Remove Symlinks
+        run: |
+          echo "Removing symlinks from dist..."
+          find ./dist -type l -exec rm {} \;
+          echo "Remaining symlinks (should be none):"
+          find ./dist -type l || true
+
+      # 7️⃣ Check total size of build output
       - name: Check Total Size of dist
         run: du -sh ./dist
-      # 6️⃣ Disable Jekyll
+
+      # 8️⃣ Disable Jekyll for GitHub Pages
       - name: Disable Jekyll
         run: touch dist/.nojekyll
 
-      # 7️⃣ Upload Webpack output as an artifact
+      # 9️⃣ Copy build output into a clean _site_final folder (dereference links)
+      - name: Prepare _site_final folder
+        run: |
+          mkdir -p _site_final
+          shopt -s dotglob
+          cp -rL ./dist/* _site_final/
+          cp -rL ./dist/.[!.]* _site_final/ || true
+          echo "Verifying _site_final contents:"
+          ls -R _site_final
+
+      # 🔟 Final check for symlinks before upload
+      - name: Check for Symlinks in _site_final
+        run: |
+          echo "Checking for symlinks in _site_final..."
+          find _site_final -type l && echo "❌ Symlinks found!" || echo "✅ No symlinks."
+
+      # 11️⃣ Upload artifact for GitHub Pages
       - name: Upload Build Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
-          path: ./dist
+          path: ./_site_final
 
   deploy:
     runs-on: ubuntu-latest
@@ -64,6 +88,6 @@ jobs:
       pages: write
       id-token: write
     steps:
-      # 8️⃣ Deploy the artifact to GitHub Pages
+      # 12️⃣ Deploy the uploaded artifact to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
