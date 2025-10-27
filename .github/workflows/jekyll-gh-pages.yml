@@ -36,22 +36,18 @@ jobs:
       - name: Build with Webpack
         run: npm run prod
 
-      # 5️⃣ Setup Ruby for Jekyll build
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-          bundler-cache: true
-
-      # 6️⃣ Setup Pages environment
+      # 5️⃣ Setup Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # 7️⃣ Build Jekyll site into _site
+      # 6️⃣ Build Jekyll site into _site (preinstalled Jekyll, no Gemfile needed)
       - name: Build with Jekyll
-        run: bundle exec jekyll build --source . --destination ./_site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
 
-      # 8️⃣ Copy Webpack output into _site AFTER Jekyll
+      # 7️⃣ Copy Webpack output into _site AFTER Jekyll
       - name: Copy Webpack output to _site
         run: |
           if [ -d dist ] && [ "$(ls -A dist)" ]; then
@@ -60,15 +56,15 @@ jobs:
             echo "Warning: Webpack output folder 'dist' is empty!"
           fi
 
-      # 9️⃣ Verify final _site contents
+      # 8️⃣ Verify final _site contents
       - name: Verify _site contents
         run: ls -R _site
 
-      # 🔟 Upload artifact for deployment
+      # 9️⃣ Upload artifact for deployment
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site    # <-- do NOT use /*, upload folder itself
+          path: ./_site   # ✅ Upload folder itself, not /*
 
   deploy:
     environment:
