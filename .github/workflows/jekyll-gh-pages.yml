@@ -34,7 +34,7 @@ jobs:
 
       # Build assets and index.html using Webpack
       - name: Build with Webpack
-        run: npm run build
+        run: npm run prod
 
       # Setup Ruby for Jekyll build
       - name: Setup Ruby
