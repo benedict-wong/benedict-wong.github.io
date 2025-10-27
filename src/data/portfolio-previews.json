@@ -3,7 +3,7 @@
     {
       "title": "American Express | Your World of AMEX",
       "id": "YWOA",
-      "description": "A personal portfolio website showcasing projects and skills.",
+      "description": "A WebAR experience that showcases the different benefits of using an American Express card. Features an interactive island with hotspots that users can click on to learn more about the benefits.",
       "image": "./assets/images/project-1/TimeOut.png",
       "link": "./src/screens/project-1.html",
       "type": "Mobile",
@@ -12,9 +12,9 @@
       "hiddenDate": "2024-03"
     },
     {
-      "title": "Haribo | Haribo Easter Egg Hunt",
+      "title": "Haribo | Easter Happiness Hunt",
       "id": "HariboEasterEggHunt",
-      "description": "An online store with a variety of products and secure payment options.",
+      "description": "A WebAR scavenger hunt game where players explore their real-world surroundings to find and collect hidden Haribo Easter candy. Over three annual iterations, the game evolved with new features including an endless mode and a competitive multiplayer experience.",
       "image": "./assets/images/project-1/TimeOut.png",
       "link": "./screens/project-2.html",
       "type": "Mobile",
@@ -25,7 +25,7 @@
     {
       "title": "Kalik | Proud to be FIFTY",
       "id": "ProudToBeFifty",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR experience featuring a 3D model of a Bahamian Junkanoo costume that users can view in their real-world environment. Includes interactive hotspots that lead to minigames that users can play to celebrate The Bahamas' 50th anniversary of independence.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -35,7 +35,7 @@
     {
       "title": "Manchester City OKX | Play for the City",
       "id": "PlayForTheCity",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR experience utilizing Ready Player Me avatars that allows users to create a personalized avatar and see it perform football tricks in their real-world environment.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "SLAM", "Ready Player Me", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -45,7 +45,7 @@
     {
       "title": "Manchester City TECNO Mobile | #AnnounceYourself",
       "id": "AnnounceYourself",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR experience and 360 walk-around feature that allows users to explore the Etihad Stadium and training grounds. Features an experience where users can sign for Manchester City, create their custom jersey and play a penalty shootout game.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "SLAM", "360 walk-around", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -55,7 +55,7 @@
     {
       "title": "Owens Corning | Where Performance Meets Purpose",
       "id": "WPMP",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR experience featuring a building that showcases Owens Corning's sustainable building solutions. Users can explore the building in their real-world environment and interact with hotspots to learn more about the products and their information.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -65,7 +65,7 @@
     {
       "title": "Spin Genie | Spin Genie Portal",
       "id": "SpinGenie",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A 3D environment scavenger hunt experience that features objects from Spin Genie's different casino games.",
       "image": "./assets/images/project-1/TimeOut.png",
       "tags": ["AR", "3D Environment", "HTML", "CSS", "JavaScript", "A-Frame"],
       "type": "Mobile",
@@ -75,7 +75,7 @@
     {
       "title": "Diageo | Spirits Choice",
       "id": "SpiritsChoice",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A mobile experience that helps users discover and choose Diageo spirits based on their preferences.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["HTML", "CSS", "JavaScript", "Vue", "Nuxt"],
@@ -85,7 +85,7 @@
     {
       "title": "Dare Iced Coffee | Dare Rainforest Alliance ",
       "id": "DareIcedCoffee",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A tap-to-place AR SLAM experience featuring a Dare Iced Coffee bottle. Features interactive easter egg elements that reveal different animations surrounding the Dare Iced Coffee bottle.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -96,7 +96,7 @@
     {
       "title": "US Health Department | Unfiltered Facts",
       "id": "UnfilteredFacts",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A Snapchat Lens AR experience that educates users about the dangers of smoking and nicotine through interactive hotspots and videos.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "Snap Lens"],
@@ -106,7 +106,7 @@
     {
       "title": "EE | Full Fibre House",
       "id": "FullFibreHouse",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebXR experience that showcases the benefits of EE's Full Fibre broadband through an animated 2.5D house. Features a scannable image target and SLAM tracking to view different aspects of a house using EE's Full Fibre broadband.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -116,7 +116,7 @@
     {
       "title": "Google x McLaren | Absolute Scale F1 Car",
       "id": "F1Car",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR tech demo that showcases an absolute scale 3D model of a McLaren F1 car that users can place in their real-world environment and manipulate to see the details.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
@@ -126,7 +126,7 @@
     {
       "title": "Planet Mojo | Mojo Character SLAM Experience",
       "id": "PlanetMojo",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR experience that showcases a Mojo character in their real-world environment using SLAM technology. Features an animated transition from a seed growing into the Mojo character.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "date": "May 2022",
@@ -135,7 +135,7 @@
     {
       "title": "GOAL x Clear | Shirt of Firsts",
       "id": "ShirtOfFirsts",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A 3D desktop experience that lets users explore a virtual gallery showcasing the Shirt of Firsts, a special edition football jersey featuring patches of various country flags. Each patch is interactive, revealing stories of key first achievements during the 2022 World Cup.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Desktop",
       "date": "Dec 2022",
@@ -144,7 +144,7 @@
     {
       "title": "Cadbury | Secret Santa Postal Service",
       "id": "SecretSanta",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A WebAR image target experience that allows users to interact with a 3D postal service box, featuring a video with subtitles. Users can then interact with the CTA button to send physical Cadbury chocolate bars to their friends and family.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
       "date": "Nov 2023",
@@ -153,7 +153,7 @@
     {
       "title": "Time Out | Time Out Virtual Reality Game",
       "id": "TimeOut",
-      "description": "A blog site featuring articles on technology, programming, and web development.",
+      "description": "A Unity-based VR escape room game where players solve puzzles and uncover hidden objects to break free before time runs out. The game features a unique scale mechanic that lets players grow or shrink to discover clues and hidden items from different perspectives.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Unity VR",
       "date": "March 2021",

@@ -8,18 +8,24 @@
         "overview":  "Your World of AMEX (YWOA) was a project developed with DCG One for American Express, highlighting the benefits of Green, Gold, and Platinum cards. The Augmented Reality experience featured a 3D island rising from under the ground, divided into four quadrants showcasing Travel, Personal, Hotel and Dining benefits. A voice-over assistant guided users through the benefits, while SLAM elements, tappable easter eggs and animated 2D/3D assets added interactivity and engagement.\n\nWe optimized the experience for a wide range of devices, ranging from the iPhone 8 released in 2017 to modern Apple and Android phones and tablets, balancing texture quality to ensure smooth performance and preventing crashes on low-end devices whithout compromising visuals and quality on high-end devices. Accessibility options were also implemented for users who required them.\n\nAs the lead front-end developer in this project, I integrated 2D and 3D assets provided by the respective creative teams at both Aircards and DCG One. I developed interactive elements, CTAs, UI components and made multiple quality checks to ensure smooth performance across the aforementioned range of devices. I also oversaw database design and population, ensuring seamless integration for both our team at Aircards and the developer at DCG One. I also participated in weekly meetings with DCG One to report progress, review feature updates and fixes, and brainstorm solutions to feedback from the American Express creative team.",
         "impact":  "* The AR experience greatly impressed American Express executives in its high-quality design and innovative advertisement approach, prompting them to greenlight a second project mid-development, demonstrating the value and effectiveness of the immersive experience.",
         "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Database design done through spreadsheet, transferred to JSON.",
-        "responsibilities":  "Lead Developer: I led front-end development by integrating 2D and 3D assets and building interactive A-Frame, UI and CTA components. I coordinated weekly sprints with both teams, providing detailed changelogs on development progress, noted down tasks through Jira and Asana, and helped to brainstorm solutions to feedback from the American Express and DCG One teams. \n\nQuality Assurance: I ensured stable performance and high visual fidelity across image textures and video assets. I conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. I maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.\n\nContent Management: I collaborated with DCG One to develop a centralized database for text and visual assets, enabling asychronous updates and seamless integration into the immersive experience."
+        "responsibilities":  "Lead Developer: I led front-end development by integrating 2D and 3D assets and building interactive A-Frame, UI and CTA components. I also coordinated weekly sprints with both teams, providing detailed changelogs on development progress, noted down tasks through Jira and Asana, and helped to brainstorm solutions to feedback from the American Express and DCG One teams. \n\nQuality Assurance: I ensured stable performance and high visual fidelity across image textures and video assets. I also conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. Lastly, I maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.\n\nContent Management: I collaborated with DCG One to develop a centralized database for text and visual assets, enabling asychronous updates and seamless integration into the immersive experience.",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
-        "name":  "Haribo Easter Egg Hunt",
+        "name":  "Easter Happiness Hunt",
         "id":  "HariboEasterEggHunt",
         "date":  "Feb 2022-2024",
         "platform":  "Mobile",
         "role":  "Front-End, Back-End, UX/UI",
-        "overview":  "",
-        "impact":  "",
-        "technicalDetails":  "",
-        "responsibilities":  ""
+        "overview":  "The Haribo Easter Happiness Hunt was a WebAR event that spanned three annual Easter timeframes promoting Haribo\u0027s Easter candy product line. The event featured an augmented reality scavenger hunt where six different candies would be hidden behind various obstacles. The obstacles appeared in the player\u0027s environment through their device camera using SLAM technology and by moving through the environment with their device, the player could find candy hidden behind bushes, trees and fences. By reaching the game\u0027s end via different annual goals, the player would be prompted to enter their for a contest to win Haribo\u0027s Easter products.\n\nThis project evolved over the three annual events, each introducing fresh improvements to the core gameplay loop to enhance player engagement. In the first year, players were tasked with finding six candies hidden throughout the environment. Collecting all six within the time limit resulted in victory. While it was simple, it was intended to be easy for children to complete. The second year expanded on this concept by shifting the goal to collecting as many candies as possible within the time limit. This introduced a completitive element, allowing players to compare their scores and to compete to achieve the highest total score. In the third year, the experience advanced even further with the addition of a multiplayer mode. Players were connected through a host-peer network, with the host acting as the source of truth for synchronizing candy collection across devices. This was done to prevent different players from collecting the same piece of candy and potential discrepancies between the host and peer\u0027s scores. At the end of each session, the player with the highest candy count was crowned the winner.\n\nAs the lead developer for this project, I integrated all 2D and 3D assets provided by the respective creative teams but made edits to UI elements and 3D assets as necessary to keep performance uniform across various devices. I implemented the majority of the core game logic, enabling the project to run smoothly. While the multiplayer system was adapted from a colleague\u0027s previous implementation in a different project, I reconfigured and integrated it to meet this project\u0027s specific requirements.",
+        "impact":  "* Users spent over 5000+ hours engaging with the experience and brand\n* 25.6% form submission rate (1st party data collection via Google Analytics)\n* 14.8% experience share rate\n* 7.6 clack-through rate to brand website",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Multiplayer functionality done through a peer to peer server hosted via Haribo",
+        "responsibilities":  "Lead Developer: I led front-end development by integrating 2D and 3D assets, building interactive A-Frame and UI components with JavaScript. I reconfigured a set of peer-to-peer components to fit the needs of this project and improved functionality and performance. \n\nCreative: I made edits to 2D UI elements and 3D models to fit the needs of the project, improving performance across a range of different mobile devices. \n\nQuality Assurance: I ensured stable performance and high visual fidelity across image textures. I also conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. Lastly, I maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.",
+        "videoLink":  "https://www.youtube.com/embed/9aYzRot9Pec?si=XxgaXVT-UcjSndyf",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Proud to be FIFTY",
@@ -30,7 +36,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Play for the City",
@@ -41,7 +50,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "#AnnounceYourself",
@@ -52,7 +64,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Where Performance Meets Purpose",
@@ -63,7 +78,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Spin Genie Portal",
@@ -74,7 +92,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Spirits Choice",
@@ -85,7 +106,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Dare Rainforest Alliance",
@@ -96,7 +120,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Unfiltered Facts",
@@ -107,7 +134,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Full Fibre House",
@@ -118,7 +148,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Absolute Scale F1 Car",
@@ -129,7 +162,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Mojo Character SLAM Experience",
@@ -140,7 +176,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Shirt of Firsts",
@@ -151,7 +190,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Secret Santa Postal Service",
@@ -162,7 +204,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Time Out",
@@ -173,7 +218,10 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  ""
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
     },
     {
         "name":  "Homebound",
@@ -184,6 +232,9 @@
         "overview":  "",
         "impact":  "",
         "technicalDetails":  "",
-        "responsibilities":  null
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  null
     }
 ]

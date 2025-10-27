@@ -29,6 +29,35 @@ export const ProjectGenerate = {
     })
     document.querySelector('.article-project-impact-body').appendChild(ul1)
 
+    // place video here
+    let videoEl
+
+    if (currentProject.videoLink) {
+      videoEl = document.createElement('iframe')
+      videoEl.src = currentProject.videoLink
+      videoEl.width = currentProject.videoWidth
+      videoEl.height = currentProject.videoHeight
+      videoEl.classList.add('article-project-video')
+      videoEl.classList.add('iframe-video')
+    } else {
+      let videoFile
+      try {
+        videoFile = require(`../assets/videos/${data}.mp4`)
+      } catch {}
+
+      if (videoFile) {
+        videoEl = document.createElement('video')
+        videoEl.classList.add('article-project-video')
+        videoEl.controls = true
+        videoEl.src = videoFile
+      }
+    }
+    document.querySelector('.article-project-video-container').innerHTML = '' // Sanitize the inside of the container if a pre-existing video is potentially there.
+    if (!videoEl) {
+      document.querySelector('.article-project-video-container').style.display = 'none'
+    }
+    document.querySelector('.article-project-video-container').appendChild(videoEl)
+
     document.querySelector('.article-project-technical-details-body').innerHTML = currentProject.technicalDetails.replace(/\n/g, '<br>')
 
     document.querySelector('.article-project-responsibilities-body').innerHTML = currentProject.responsibilities

@@ -2,10 +2,7 @@ import portfolioPreviews from '../data/portfolio-previews.json'
 
 export const PortfolioGenerate = {
   init() {
-    document.querySelector('.footer-current-year').textContent = new Date().getFullYear()
-    const sortedPreviews = [...portfolioPreviews.previews].sort(
-      (a, b) => new Date(b.hiddenDate) - new Date(a.hiddenDate)
-    )
+    const sortedPreviews = [...portfolioPreviews.previews].sort((a, b) => new Date(b.hiddenDate) - new Date(a.hiddenDate))
     sortedPreviews.forEach((preview) => {
       const square = PortfolioGenerate.generatePortfolioSquares(preview)
       document.querySelector('.portfolio-content-container').appendChild(square)
