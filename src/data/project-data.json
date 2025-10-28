@@ -20,26 +20,12 @@
         "platform":  "Mobile",
         "role":  "Front-End, Back-End, UX/UI",
         "overview":  "The Haribo Easter Happiness Hunt was a WebAR event that spanned three annual Easter timeframes promoting Haribo\u0027s Easter candy product line. The event featured an augmented reality scavenger hunt where six different candies would be hidden behind various obstacles. The obstacles appeared in the player\u0027s environment through their device camera using SLAM technology and by moving through the environment with their device, the player could find candy hidden behind bushes, trees and fences. By reaching the game\u0027s end via different annual goals, the player would be prompted to enter their for a contest to win Haribo\u0027s Easter products.\n\nThis project evolved over the three annual events, each introducing fresh improvements to the core gameplay loop to enhance player engagement. In the first year, players were tasked with finding six candies hidden throughout the environment. Collecting all six within the time limit resulted in victory. While it was simple, it was intended to be easy for children to complete. The second year expanded on this concept by shifting the goal to collecting as many candies as possible within the time limit. This introduced a completitive element, allowing players to compare their scores and to compete to achieve the highest total score. In the third year, the experience advanced even further with the addition of a multiplayer mode. Players were connected through a host-peer network, with the host acting as the source of truth for synchronizing candy collection across devices. This was done to prevent different players from collecting the same piece of candy and potential discrepancies between the host and peer\u0027s scores. At the end of each session, the player with the highest candy count was crowned the winner.\n\nAs the lead developer for this project, I integrated all 2D and 3D assets provided by the respective creative teams but made edits to UI elements and 3D assets as necessary to keep performance uniform across various devices. I implemented the majority of the core game logic, enabling the project to run smoothly. While the multiplayer system was adapted from a colleague\u0027s previous implementation in a different project, I reconfigured and integrated it to meet this project\u0027s specific requirements.",
-        "impact":  "* Users spent over 5000+ hours engaging with the experience and brand\n* 25.6% form submission rate (1st party data collection via Google Analytics)\n* 14.8% experience share rate\n* 7.6 clack-through rate to brand website",
+        "impact":  "* Users spent over 5000+ hours engaging with the experience and brand\n* 25.6% form submission rate (1st party data collection via Google Analytics)\n* 14.8% experience share rate\n* 7.6 click-through rate to brand website",
         "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Multiplayer functionality done through a peer to peer server hosted via Haribo",
         "responsibilities":  "Lead Developer: I led front-end development by integrating 2D and 3D assets, building interactive A-Frame and UI components with JavaScript. I reconfigured a set of peer-to-peer components to fit the needs of this project and improved functionality and performance. \n\nCreative: I made edits to 2D UI elements and 3D models to fit the needs of the project, improving performance across a range of different mobile devices. \n\nQuality Assurance: I ensured stable performance and high visual fidelity across image textures. I also conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. Lastly, I maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.",
         "videoLink":  "https://www.youtube.com/embed/9aYzRot9Pec?si=XxgaXVT-UcjSndyf",
         "videoWidth":  "560",
         "videoHeight":  "315"
-    },
-    {
-        "name":  "Proud to be FIFTY",
-        "id":  "ProudToBeFifty",
-        "date":  "May 2023",
-        "platform":  "Mobile",
-        "role":  "Front-End, Back-End, UX/UI",
-        "overview":  "",
-        "impact":  "",
-        "technicalDetails":  "",
-        "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
     },
     {
         "name":  "Play for the City",
@@ -51,9 +37,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/0L_FBMMzj9c?si=HS5NpsHCoaAQw77o",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "#AnnounceYourself",
@@ -65,9 +51,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/t-gmWZJ3rTI?si=zMQTzPiQyY8zIL9t",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Where Performance Meets Purpose",
@@ -79,9 +65,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://player.vimeo.com/video/833425406?badge=0\u0026amp;autopause=0\u0026amp;player_id=0\u0026amp;app_id=58479",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Spin Genie Portal",
@@ -93,9 +79,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/r3vogwCFxPk?si=roQx-lHtu6WUc-Ee",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Spirits Choice",
@@ -107,9 +93,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/5G3vdDFQ_tg?si=BInEH9oCiPLfQpW9",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Dare Rainforest Alliance",
@@ -122,22 +108,8 @@
         "technicalDetails":  "",
         "responsibilities":  "",
         "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
-    },
-    {
-        "name":  "Unfiltered Facts",
-        "id":  "UnfilteredFacts",
-        "date":  "March 2024",
-        "platform":  "Snapchat Filter",
-        "role":  "Front-End",
-        "overview":  "",
-        "impact":  "",
-        "technicalDetails":  "",
-        "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Full Fibre House",
@@ -149,9 +121,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/2NUnMKH4xQM?si=OqclwOfSiwwwU2P8",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Absolute Scale F1 Car",
@@ -164,8 +136,8 @@
         "technicalDetails":  "",
         "responsibilities":  "",
         "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Mojo Character SLAM Experience",
@@ -177,9 +149,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/6l0BMpwiZyc?si=UX_OzOstKt83_len",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Shirt of Firsts",
@@ -205,9 +177,9 @@
         "impact":  "",
         "technicalDetails":  "",
         "responsibilities":  "",
-        "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoLink":  "https://www.youtube.com/embed/8doARrlLbiI?si=fvLda7DaAsxAXKrN",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Time Out",
@@ -220,8 +192,8 @@
         "technicalDetails":  "",
         "responsibilities":  "",
         "videoLink":  "",
-        "videoWidth":  "",
-        "videoHeight":  ""
+        "videoWidth":  "560",
+        "videoHeight":  "315"
     },
     {
         "name":  "Homebound",
