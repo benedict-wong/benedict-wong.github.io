@@ -56,8 +56,8 @@ jobs:
         run: du -sh ./dist
 
       # 8️⃣ Disable Jekyll for GitHub Pages
-      - name: Disable Jekyll
-        run: touch dist/.nojekyll
+      # - name: Disable Jekyll
+      #   run: touch dist/.nojekyll
 
       # 9️⃣ Copy build output into a clean _site_final folder (dereference links)
       - name: Prepare _site_final folder
