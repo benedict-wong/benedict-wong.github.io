@@ -53,9 +53,28 @@
 }
 
 @media (max-width: 768px) {
+  .section-project-header {
+    margin: 0 5%;
+  }
+
+  .section-project-header-title {
+    font-size: 3rem;
+  }
+
   .section-project-header-categories {
     flex-direction: column;
     justify-content: space-around;
     gap: 1em;
+  }
+
+  .section-project-main {
+    margin: 0 5%;
+  }
+  .article-project-headers {
+    text-align: center;
+  }
+
+  .article-project-video-container {
+    margin: 5% 10%;
   }
 }

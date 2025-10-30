@@ -11,7 +11,7 @@ import { PortfolioGenerate } from './components/portfolio-generate'
 import { ProjectGenerate } from './components/project-generate'
 import { SetCurrentYear } from './components/set-current-year'
 
-document.body.style.touchAction = 'none'
+// document.body.style.touchAction = 'none'
 document.body.insertAdjacentHTML('afterbegin', guiHTML)
 
 const components = {
