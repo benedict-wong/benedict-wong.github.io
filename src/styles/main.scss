@@ -201,6 +201,7 @@ body {
 
 .portfolio-square {
   // aspect-ratio: 1 / 1;
+  position: relative;
   flex: 0 0 30%;
   margin: 3% 0;
   background: #fff;
@@ -265,6 +266,34 @@ body {
 }
 .portfolio-square-footer p {
   padding: 0 2%;
+}
+
+// .tempUnavail {
+//   pointer-events: none;
+//   filter: grayscale(100%) brightness(70%);
+//   position: relative;
+// }
+
+.wip-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.portfolio-square.tempUnavail:hover .wip-overlay {
+  opacity: 1;
 }
 
 @media (max-width: 1024px) {

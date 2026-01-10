@@ -11,7 +11,20 @@ export const PortfolioGenerate = {
   generatePortfolioSquares(preview) {
     const portfolioSquare = document.createElement('div')
     portfolioSquare.className = 'portfolio-square cantap'
+    if (!preview.title.includes('Haribo') && !preview.title.includes('American Express')) {
+      portfolioSquare.classList.remove('cantap')
+      portfolioSquare.classList.add('tempUnavail')
+    }
+
+    if (portfolioSquare.classList.contains('tempUnavail')) {
+      const wip = document.createElement('div')
+      wip.className = 'wip-overlay'
+      wip.textContent = 'Work in progress'
+      portfolioSquare.appendChild(wip)
+    }
+
     portfolioSquare.onclick = () => {
+      if (portfolioSquare.classList.contains('tempUnavail')) return
       window.location.href = `project.html?projectId=${encodeURIComponent(preview.id)}`
     }
 
