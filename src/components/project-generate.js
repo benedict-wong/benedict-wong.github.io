@@ -61,7 +61,15 @@ export const ProjectGenerate = {
     document.querySelector('.article-project-technical-details-body').innerHTML = currentProject.technicalDetails.replace(/\n/g, '<br>')
 
     document.querySelector('.article-project-responsibilities-body').innerHTML = currentProject.responsibilities
-      .replace(/(^|\n\n)([^:\n]+?):/g, (match, p1 = '', p2) => `${p1}<b>${p2.trim()}:</b>`)
+      .replace(/(^|\n\n)([^:\n]+?):/g, (match, p1 = '', p2) => `${p1}<b>${p2.trim()}</b>`)
+      .replace(/(?:^|\n)((?:\* .+(?:\n|$))+)/g, (match, list) => {
+        const items = list
+          .trim()
+          .split('\n')
+          .map((item) => `<li>${item.replace(/^\*\s*/, '')}</li>`)
+          .join('')
+        return `<ul>${items}</ul>`
+      })
       .replace(/\n/g, '<br>')
   },
 }
