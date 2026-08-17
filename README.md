@@ -1,7 +1,3 @@
-# html-screenshot-share
-This repo contains a component leveraging HTML2Canvas and the Media Share API to take a screenshot and share it, with options for watermarks
+# Benedict Wong's Portfolio
 
-# Dependencies
-
-mime
-html2canvas
+Portfolio website built with HTML/CSS, JavaScript
