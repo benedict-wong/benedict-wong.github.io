@@ -127,26 +127,8 @@
       "description": "A WebAR image target experience that allows users to interact with a 3D postal service box, featuring a video with subtitles. Users can then interact with the CTA button to send physical Cadbury chocolate bars to their friends and family.",
       "image": "./assets/images/project-1/TimeOut.png",
       "type": "Mobile",
-      "date": "Nov 2023",
-      "hiddenDate": "2023-11"
-    },
-    {
-      "title": "Time Out | Time Out Virtual Reality Game",
-      "id": "TimeOut",
-      "description": "A Unity-based VR escape room game where players solve puzzles and uncover hidden objects to break free before time runs out. The game features a unique scale mechanic that lets players grow or shrink to discover clues and hidden items from different perspectives.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Unity VR",
-      "date": "March 2021",
-      "hiddenDate": "2021-03"
-    },
-    {
-      "title": "Homebound | Homebound 3D Rogue-like Game",
-      "id": "Homebound",
-      "description": "An Isometric exploratory roguelike game with crafting elements. Uses a comedic tone as the premise involves catching different creatures and putting them together to build a spaceship to get home.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Unity 3D",
-      "date": "Oct 2020",
-      "hiddenDate": "2020-10"
+      "date": "Nov 2022",
+      "hiddenDate": "2022-11"
     }
   ]
 }
