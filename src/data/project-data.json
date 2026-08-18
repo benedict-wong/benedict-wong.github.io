@@ -1,635 +1,212 @@
 ﻿[
     {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Your World of AMEX\""
-    },
-    {
-        "[":  "id:  \"YWOA\""
-    },
-    {
-        "[":  "date:  \"March 2024\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"Your World of AMEX (YWOA) was a project developed with DCG One for American Express"
-    },
-    {
-        "[":  "impact:  \"* The AR experience greatly impressed American Express executives in its high-quality design and innovative advertisement approach"
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"Primary Contributor:\\n* Implemented 2D and 3D assets and built interactive A-Frame"
-    },
-    {
-        "[":  "videoLink:  \"\""
-    },
-    {
-        "[":  "videoWidth:  \"\""
-    },
-    {
-        "[":  "videoHeight:  \"\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Easter Happiness Hunt\""
-    },
-    {
-        "[":  "id:  \"HariboEasterEggHunt\""
-    },
-    {
-        "[":  "date:  \"Feb 2022-2024\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"The Haribo Easter Happiness Hunt was a WebAR event that spanned three annual Easter timeframes promoting Haribo\\u0027s Easter candy product line. The event featured an augmented reality scavenger hunt where six different candies would be hidden behind various obstacles. The obstacles appeared in the player\\u0027s environment through their device camera using SLAM technology and by moving through the environment with their device"
-    },
-    {
-        "[":  "impact:  \"* Users spent over 5000+ hours engaging with the experience and brand\\n* 25.6% form submission rate (1st party data collection via Google Analytics)\\n* 14.8% experience share rate\\n* 7.6 click-through rate to brand website\""
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"Primary Contributor: I integrated 2D and 3D assets"
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/9aYzRot9Pec?si=XxgaXVT-UcjSndyf\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Play for the City\""
-    },
-    {
-        "[":  "id:  \"PlayForTheCity\""
-    },
-    {
-        "[":  "date:  \"April 2023\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End\""
-    },
-    {
-        "[":  "overview:  \"#PlayForTheCity was a WebAR project developed in conjunction with Yahoo Creative and Manchester City + OKX. Utilizing Manchester City themed Ready Player Me avatars"
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"Primary Contributor: I drove the technical implementation of this project by reworking pre-existing Ready Player Me avatar logic. I developed a script to apply general animations onto the generated Ready Player Me avatars. I also created a script to deploy translations across many countries by checking the device\\u0027s location.\\n\\nQuality Assurance: I ensured stable performance and high visual fidelity through the integration of Ready Player Me and custom animations. I also conducted extensive tests on a wide range of Apple and Android physical devices"
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/0L_FBMMzj9c?si=HS5NpsHCoaAQw77o\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"#AnnounceYourself\""
-    },
-    {
-        "[":  "id:  \"AnnounceYourself\""
-    },
-    {
-        "[":  "date:  \"Jan 2022\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"#AnnounceYourself was a WebAR project developed in conjunction with AND THE NEW and Manchester City to promote the partnership between Manchester City and Tecno Mobile. Utilizing a 360 environment"
-    },
-    {
-        "[":  "impact:  \"* 70.3 million social media impressions \\n* 258"
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"Primary Contributor: I integrated underlying logic for the 360 environment experience and guided tour and developed the core gameplay and animation logic for the penalty shootout. I made tweaks to the texture customization script provided by a colleague and designed a database for informational text copy and UI elements.\\n\\nQuality Assurance: I ensured stable performance and high visual fidelity throughout the different aspects of the experience"
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/t-gmWZJ3rTI?si=zMQTzPiQyY8zIL9t\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Where Performance Meets Purpose\""
-    },
-    {
-        "[":  "id:  \"WPMP\""
-    },
-    {
-        "[":  "date:  \"June 2023\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"Owens Corning: Where Performance Meets Purpose was a WebAR experience designed to showcase the range of Owens Corning products used throughout a building. Each product was integrated into a 3D building model that could be revealed by tapping its corresponding hotspot"
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"Primary Contributor: I integrated the key logic for the hotspots and UI elements and developed several iterations of the (scrapped) camera angle movement logic. I also integrated changes and fixes to the SLAM-based tracking in order to minimize the tracking drift and jitter"
-    },
-    {
-        "[":  "videoLink:  \"https://player.vimeo.com/video/833425406?badge=0\\u0026amp;autopause=0\\u0026amp;player_id=0\\u0026amp;app_id=58479\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Spin Genie Treasure Quest\""
-    },
-    {
-        "[":  "id:  \"SpinGenie\""
-    },
-    {
-        "[":  "date:  \"Sep 2024\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End\""
-    },
-    {
-        "[":  "overview:  \"Spin Genie Treasure Quest was a 3D WebAR scavenger hunt experience. The project began with an interactive genie lamp; rubbing the lamp triggered an animation that transported users inside. After reading the game instructions"
-    },
-    {
-        "[":  "impact:  \"* 150"
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"Primary Contributor: I built the core experience logic and implemented animation and interactive elements. I tightened the gameplay experience by finding a balance between skill and fun and added hint-related features to help users find the objects if they struggled to find them. I ideated and implemented an accessibility feature for users who may be unable to physically rotate their device"
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/r3vogwCFxPk?si=roQx-lHtu6WUc-Ee\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Spirits Choice\""
-    },
-    {
-        "[":  "id:  \"SpiritsChoice\""
-    },
-    {
-        "[":  "date:  \"July 2024\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"\""
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"Web experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/5G3vdDFQ_tg?si=BInEH9oCiPLfQpW9\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Dare Rainforest Alliance\""
-    },
-    {
-        "[":  "id:  \"DareIcedCoffee\""
-    },
-    {
-        "[":  "date:  \"Aug 2022\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"The Dare Iced Coffee AR experience was a WebAR activation developed in collaboration with Yahoo Creative Studios and Dare Iced Coffee"
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Full Fibre House\""
-    },
-    {
-        "[":  "id:  \"FullFibreHouse\""
-    },
-    {
-        "[":  "date:  \"Sep 2022\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End\""
-    },
-    {
-        "[":  "overview:  \"The EE Full Fibre House was a WebAR experience developed for EE"
-    },
-    {
-        "[":  "impact:  \"* Nation-wide campaign across various EE stores in the UK\\n* 15"
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/2NUnMKH4xQM?si=OqclwOfSiwwwU2P8\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Absolute Scale F1 Car\""
-    },
-    {
-        "[":  "id:  \"F1Car\""
-    },
-    {
-        "[":  "date:  \"Apr 2023\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"The Google | McLaren Absolute Scale F1 Car was an experimental WebAR experience developed in collaboration with Google"
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Mojo Character SLAM Experience\""
-    },
-    {
-        "[":  "id:  \"PlanetMojo\""
-    },
-    {
-        "[":  "date:  \"May 2022\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"\""
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"WebAR experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/6l0BMpwiZyc?si=UX_OzOstKt83_len\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Shirt of Firsts\""
-    },
-    {
-        "[":  "id:  \"ShirtOfFirsts\""
-    },
-    {
-        "[":  "date:  \"Dec 2022\""
-    },
-    {
-        "[":  "platform:  \"Desktop\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"The Shirt of Firsts was a desktop 3D experience developed in conjunction with GOAL and Unilever to promote 22 \\\"first\\\" achievements during the 2022 FIFA World Cup. The experience initially featured a blank shirt"
-    },
-    {
-        "[":  "impact:  \"No publicly disclosed performance metrics\""
-    },
-    {
-        "[":  "technicalDetails:  \"Web experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"\""
-    },
-    {
-        "[":  "videoWidth:  \"\""
-    },
-    {
-        "[":  "videoHeight:  \"\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Secret Santa Postal Service\""
-    },
-    {
-        "[":  "id:  \"SecretSanta\""
-    },
-    {
-        "[":  "date:  \"Nov 2022\""
-    },
-    {
-        "[":  "platform:  \"Mobile\""
-    },
-    {
-        "[":  "role:  \"Front-End"
-    },
-    {
-        "[":  "overview:  \"Cadbury: Secret Santa Postal Service was a mobile WebAR experience developed in partnership with Bernadette to promote the annual Secret Santa Postal Service campaign to give away free chocolate bars to recipients across the UK. This iteration featured an Augmented Reality activation where the poster would expand out to show a counter nook with the postal worker introducing the campaign. After the introduction"
-    },
-    {
-        "[":  "impact:  \"* Nation-wide campaign across various digital billboards and print posters in the UK\\n* 1.4 million website visitors\\n* 47.5 million OOH reach\\n* +5% seasonal sales increase\""
-    },
-    {
-        "[":  "technicalDetails:  \"Web experience developed with Three.js"
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"https://www.youtube.com/embed/8doARrlLbiI?si=fvLda7DaAsxAXKrN\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Time Out\""
-    },
-    {
-        "[":  "id:  \"TimeOut\""
-    },
-    {
-        "[":  "date:  \"March 2021\""
-    },
-    {
-        "[":  "platform:  \"Unity VR\""
-    },
-    {
-        "[":  "role:  \"Unity Developer\""
-    },
-    {
-        "[":  "overview:  \"\""
-    },
-    {
-        "[":  "impact:  \"\""
-    },
-    {
-        "[":  "technicalDetails:  \"\""
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"\""
-    },
-    {
-        "[":  "videoWidth:  \"560\""
-    },
-    {
-        "[":  "videoHeight:  \"315\""
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "{"
-    },
-    {
-        "[":  "name:  \"Homebound\""
-    },
-    {
-        "[":  "id:  \"Homebound\""
-    },
-    {
-        "[":  "date:  \"Oct 2020\""
-    },
-    {
-        "[":  "platform:  \"Desktop\""
-    },
-    {
-        "[":  "role:  \"3D Generalist\""
-    },
-    {
-        "[":  "overview:  \"\""
-    },
-    {
-        "[":  "impact:  \"\""
-    },
-    {
-        "[":  "technicalDetails:  \"\""
-    },
-    {
-        "[":  "responsibilities:  \"\""
-    },
-    {
-        "[":  "videoLink:  \"\""
-    },
-    {
-        "[":  "videoWidth:  \"\""
-    },
-    {
-        "[":  "videoHeight:  null"
-    },
-    {
-        "[":  "}"
-    },
-    {
-        "[":  "]"
+        "name":  "Your World of AMEX",
+        "id":  "YWOA",
+        "date":  "March 2024",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End",
+        "overview":  "Your World of AMEX (YWOA) was a project developed with DCG One for American Express, highlighting the benefits of Green, Gold, and Platinum cards. The Augmented Reality experience featured a 3D island rising from under the ground, divided into four quadrants showcasing Travel, Personal, Hotel and Dining benefits. A voice-over assistant guided users through the benefits, while SLAM elements, tappable easter eggs and animated 2D/3D assets added interactivity and engagement.\n\nWe optimized the experience for a wide range of devices, ranging from the iPhone 8 released in 2017 to modern Apple and Android phones and tablets, balancing texture quality to ensure smooth performance and preventing crashes on low-end devices whithout compromising visuals and quality on high-end devices. Accessibility options were also implemented for users who required them.\n\nAs the primary contributor in this project, I integrated 2D and 3D assets provided by the respective creative teams at both Aircards and DCG One. I developed interactive elements, CTAs, UI components and made multiple quality checks to ensure smooth performance across the aforementioned range of devices. I also oversaw database design and population, ensuring seamless integration for both our team at Aircards and the developer at DCG One. I also participated in weekly meetings with DCG One to report progress, review feature updates and fixes, and brainstorm solutions to feedback from the American Express creative team.",
+        "impact":  "* The AR experience greatly impressed American Express executives in its high-quality design and innovative advertisement approach, prompting them to greenlight a second project mid-development, demonstrating the value and effectiveness of the immersive experience.",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Database design done through spreadsheet, transferred to JSON.",
+        "responsibilities":  "Primary Contributor:\n* Implemented 2D and 3D assets and built interactive A-Frame, UI and CTA components. \n* Coordinated weekly sprints across both agencies, providing detailed development changelogs and organized tasks through Jira and Asana. \n* Collaborated with client teams to brainstorm solutions and address feedback from the American Express and DCG One QA tests. \n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity across image textures and video assets. \n* Conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. \n* Maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.\n\nContent Management: \n* Collaborated with DCG One to develop a centralized database for text and visual assets, enabling asychronous updates and seamless integration into the immersive experience.",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
+    },
+    {
+        "name":  "Easter Happiness Hunt",
+        "id":  "HariboEasterEggHunt",
+        "date":  "Feb 2022-2024",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End, UX/UI",
+        "overview":  "The Haribo Easter Happiness Hunt was a WebAR event that spanned three annual Easter timeframes promoting Haribo\u0027s Easter candy product line. The event featured an augmented reality scavenger hunt where six different candies would be hidden behind various obstacles. The obstacles appeared in the player\u0027s environment through their device camera using SLAM technology and by moving through the environment with their device, the player could find candy hidden behind bushes, trees and fences. By reaching the game\u0027s end via different annual goals, the player would be prompted to enter their for a contest to win Haribo\u0027s Easter products.\n\nThis project evolved over the three annual events, each introducing fresh improvements to the core gameplay loop to enhance player engagement. In the first year, players were tasked with finding six candies hidden throughout the environment. Collecting all six within the time limit resulted in victory. While it was simple, it was intended to be easy for children to complete. The second year expanded on this concept by shifting the goal to collecting as many candies as possible within the time limit. This introduced a completitive element, allowing players to compare their scores and to compete to achieve the highest total score. In the third year, the experience advanced even further with the addition of a multiplayer mode. Players were connected through a host-peer network, with the host acting as the source of truth for synchronizing candy collection across devices. This was done to prevent different players from collecting the same piece of candy and potential discrepancies between the host and peer\u0027s scores. At the end of each session, the player with the highest candy count was crowned the winner.\n\nAs the primary contributor for this project, I integrated all 2D and 3D assets provided by the respective creative teams but made edits to UI elements and 3D assets as necessary to keep performance uniform across various devices. I implemented the majority of the core game logic, enabling the project to run smoothly. While the multiplayer system was adapted from a colleague\u0027s previous implementation in a different project, I reconfigured and integrated it to meet this project\u0027s specific requirements.",
+        "impact":  "* Users spent over 5000+ hours engaging with the experience and brand\n* 25.6% form submission rate (1st party data collection via Google Analytics)\n* 14.8% experience share rate\n* 7.6 click-through rate to brand website",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Multiplayer functionality done through a peer to peer server hosted via Haribo",
+        "responsibilities":  "Primary Contributor: \n* Integrated 2D and 3D assets, building interactive A-Frame and UI components with JavaScript. \n* Rebuilt a set of peer-to-peer components to fit the needs of this project and improved functionality and performance.\n* Iterated gameplay mechanics and campaign goals across three successful years. \n\nCreative: \n\n* Modified 2D UI and 3D models to meet project requirements and user experience considerations, while optimizing assets for improved performance across a range of lower to higher-end mobile devices.\n\nQuality Assurance: \n\n* Ensured stable performance and high visual fidelity across image textures. \n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure consistent UI scaling and optimal performance across platforms.\n* Maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.",
+        "videoLink":  "https://www.youtube.com/embed/9aYzRot9Pec?si=XxgaXVT-UcjSndyf",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Play for the City",
+        "id":  "PlayForTheCity",
+        "date":  "April 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End",
+        "overview":  "#PlayForTheCity was a WebAR project developed in conjunction with Yahoo Creative and Manchester City + OKX. Utilizing Manchester City themed Ready Player Me avatars, the user could customize their own character and could place the character in their own environment using Augmented Reality. The avatar would play animations based on pre-made data, featuring various football related actions. \n\nAs the primary contributor for this project, I integrated all 2D and 3D creative assets provided by the respective creative teams across different agencies. I was also in charge of making sure the Ready Player Me customization was migrated properly from a different campaign so all user customization would work perfectly in sync with the animations developed in-house. I also was in charge of developing smaller scripts, such as the raycaster component and the translation component.",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Leveraging 3D avatars via Ready Player Me",
+        "responsibilities":  "Primary Contributor: \n* Drove the technical implementation of this project by reworking pre-existing Ready Player Me avatar logic to fit the needs and customization necessary for Manchester City. \n* Developed a script to apply general animations onto the generated Ready Player Me avatars. \n* Created a script to deploy language translations across many countries using the device\u0027s default language.\n\nQuality Assurance: \n* Ensured stable performance and high visual fidelity through the integration of Ready Player Me and custom animations. \n* Conducted extensive tests on a wide range of Apple and Android physical devices, as well as digitally through emulators. \n* Maintained UI consistency across different screen sizes, adjusting UI as needed for a clean and cohesive appearance.",
+        "videoLink":  "https://www.youtube.com/embed/0L_FBMMzj9c?si=HS5NpsHCoaAQw77o",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "#AnnounceYourself",
+        "id":  "AnnounceYourself",
+        "date":  "Jan 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "#AnnounceYourself was a WebAR project developed in conjunction with AND THE NEW and Manchester City to promote the partnership between Manchester City and Tecno Mobile. Utilizing a 360 environment, the user could visit various places, such as the Etihad Stadium, the Man City training grounds and the press conference room. The main experience featured a tour of the Manchester City facillities, allowing the user to immerse themselves in how a player would be signed to the team. From meeting their future teammates to being able to customize their own name and number to be put on an avatar and ultimately playing in a penalty shootout minigame, the user could personalize their experience from start to finish, ultimately meeting Pep Guardiola and hold a press conference to sign with the team. \n\nAs this was my first project for Aircards, I had help from my colleagues to develop the project, but ultimately the development was led by myself to integrate all the assets and develop the overall experience to completion. For this project, I was in charge of integrating the creative assets to the UI, developing the main tour and environmental areas, and designing the penalty shootout minigame.",
+        "impact":  "* 70.3 million social media impressions \n* 258,000+ unique visitors\n* 645,000+ minutes of engagement",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript.",
+        "responsibilities":  "Primary Contributor:\n\n* Integrated underlying logic for the 360 environment experience and guided tour. \n* Developed the core gameplay and animation logic for the penalty shootout.\n* Modified and extended a texture customization script developed by a colleague to meet the project\u0027s requirements.\n* Designed and implemented a database structure for managing informational copy and UI elements.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity throughout the experience, optimizing 360° images and videos to balance visual quality with performance and provide smooth navigation through the environments.\n* Developed and refined multiple iterations of the penalty shootout game, balancing skill and accessibility to create an engaging experience for a broad range of users.",
+        "videoLink":  "https://www.youtube.com/embed/t-gmWZJ3rTI?si=zMQTzPiQyY8zIL9t",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Where Performance Meets Purpose",
+        "id":  "WPMP",
+        "date":  "June 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "Owens Corning: Where Performance Meets Purpose was a WebAR experience designed to showcase the range of Owens Corning products used throughout a building. Each product was integrated into a 3D building model that could be revealed by tapping its corresponding hotspot, causing it to emerge from the structure like a puzzle piece. Once selected, the product played an animation loop demonstrating its installation process, accompanied by an on-screen description. The experience also used SLAM-based tracking to anchor the building to the user\u0027s physical environment, allowing users to walk around the structure and explore it from different angles.\n\nAs the primary contributor for this project, I was responsible for integrating the 3D assets and copy updates throughout the building and product experiences. The initial concept featured camera animations that would guide users from an overview of the building toward a specific product, zooming in as the product emerged from the building. However, this approach presented technical challenges, as the animation could fail to land on the correct position depending on the user\u0027s camera angle and position. To provide a more reliable experience, we ultimately separated the product showcase into its own scene. Users could focus on the product independently and return to the building environment whenever they wanted.",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript",
+        "responsibilities":  "Primary Contributor: \n* Integrated the key logic for the hotspots and UI elements and developed several iterations of the (scrapped) camera angle movement logic. \n* Designed and deployed several changes and fixes to the SLAM-based tracking in order to minimize the tracking drift and jitter, ensuring that it was as infrequent and imperceptible as possible. \n* Implemented additional features into a colleague’s external hotspot scene implementation, optimizing the scene transition for a faster and smoother user experience.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity through multiple texture optimization passes, balancing file size and visual quality. \n* Developed camera-relative positional and rotational checks to support the hotspot to camera movement logic, improving accuracy and consistency to the intended position and rotation values.\n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure UI elements scaled and remained properly positioned across a range of device sizes and screen resolutions.",
+        "videoLink":  "https://player.vimeo.com/video/833425406?badge=0\u0026amp;autopause=0\u0026amp;player_id=0\u0026amp;app_id=58479",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Spin Genie Treasure Quest",
+        "id":  "SpinGenie",
+        "date":  "Sep 2024",
+        "platform":  "Mobile",
+        "role":  "Front-End",
+        "overview":  "Spin Genie Treasure Quest was a 3D WebAR scavenger hunt experience. The project began with an interactive genie lamp; rubbing the lamp triggered an animation that transported users inside. After reading the game instructions, a 60-second timer began, accompanied by a matching falling-sand animation. Users could move their device or swipe the screen to explore the environment and locate five hidden objects, each themed around a different Spin Genie slot machine. To prevent frustration, if there was a five second duration between the last object found, a hint arrow pointing to the direction of the object would be shown. Once all five objects were found, or when the timer expired, the experience presented a registration form where users could claim bonus spins, with successful completion rewarding additional spins.\n\nAs the primary contributor, I was responsible for building the core experience from start to finish, including the game mechanics, interactive elements, and the registration form used to claim bonus spins.  I also implemented the project\u0027s analytics and identified a significant drop-off during the initial experience. Based on these insights, we removed the opening animation and streamlined the user journey by taking users directly into the game, reducing friction and improving access to the core experience.",
+        "impact":  "* 150,000+ unique visitors\n* 300,000+ minutes of engagement",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript",
+        "responsibilities":  "Primary Contributor: \n* Built the core experience logic and implemented animation and interactive elements. \n* Refined the gameplay experience by finding a balance between skill and fun while implementing hint features to assist users in locating objects when they struggled to progress. \n* Ideated and implemented an accessibility feature for users who may be unable to physically rotate their device, providing an alternate swipe-based interaction to control the camera rotation.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity by optimizing the texture files to balance between file size and visual quality. \n* Integrated Google Analytics into the project and collaborated closely with the analytical team to highlight user pain points and drop-off rates. \n* Utilized the insights gleamed from the analytical data to iterate quickly on the experience, removing and refining elements that contributed to the drop-off.",
+        "videoLink":  "https://www.youtube.com/embed/r3vogwCFxPk?si=roQx-lHtu6WUc-Ee",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Spirits Choice",
+        "id":  "SpiritsChoice",
+        "date":  "July 2024",
+        "platform":  "Mobile",
+        "role":  "Front-End, Back-End",
+        "overview":  "",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "Web experience developed with Three.js, A-Frame, JavaScript and Vue.js",
+        "responsibilities":  "",
+        "videoLink":  "https://www.youtube.com/embed/5G3vdDFQ_tg?si=BInEH9oCiPLfQpW9",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Dare Rainforest Alliance",
+        "id":  "DareIcedCoffee",
+        "date":  "Aug 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "The Dare Iced Coffee AR experience was a WebAR activation developed in collaboration with Yahoo Creative Studios and Dare Iced Coffee, bringing their Rainforest Alliance Certified bottles to life through SLAM-based tracking. Users could scan a tabletop or similar surface and tap the screen to place the bottle and surrounding rainforest environment into their physical space. An animated red-eyed tree frog would then hop around the bottle, while tapping a pile of coffee beans triggered an interactive animation revealing the Rainforest Alliance Certified logo. Users could also tap a CTA at any point to capture a screenshot of the experience with a branded watermark and share it on social media.\n\nAs the primary contributor for this project, I was responsible for building the core experience from start to finish, integrating the creative assets, developing and testing interactive elements for potential inclusion in the final experience, and implementing the CTA that allowed users to capture and share their experience on social media. I also integrated Google Analytics to track user interactions and journeys throughout the experience, providing internal teams with insights into user engagement and overall performance.",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript",
+        "responsibilities":  "Primary Contributor:\n* Built the core experience from start to finish by integrating 2D UI and 3D model assets and introducing interactive elements. \n* Designed and implemented several tracking improvements to optimize the transition between image-target and SLAM-based tracking, minimizing drift and jitter to ensure smooth and imperceptible transitions.\n* Customized and implemented screenshot/video recording functionality, allowing users to share the output to social media platforms.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity through multiple texture optimization passes, balancing file size and visual quality. \n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure UI elements scaled and remained properly positioned across a range of device sizes and screen resolutions.",
+        "videoLink":  "NONE",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Full Fibre House",
+        "id":  "FullFibreHouse",
+        "date":  "Sep 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End",
+        "overview":  "The EE Full Fibre House was a WebAR experience developed for EE, a UK telecommunications company, to showcase the benefits of its Full Fibre service and demonstrate how it provides fast, reliable connectivity throughout the home. The experience consisted of two interconnected components: a physical Full Fibre House, a wooden house-shaped installation featuring 2D images representing each room, and the accompanying WebAR experience. Users could scan the images within each room to trigger an animation showcasing how Full Fibre enhanced connectivity in that area of the home. During each animation, 2D information panels would appear to provide additional details about the featured feature.\n\nAs the primary contributor for the project, I was responsible for building the core experience from start to finish, integrating the creative assets, developing the scripts that enabled smooth animations to trigger following each scan, and ensuring that each room\u0027s image could be reliably detected across different devices. I also worked with internal teams to evaluate performance across a range of devices and monitor user engagement throughout the experience.",
+        "impact":  "* Nation-wide campaign across various EE stores in the UK\n* 15,000 activations across 30 stores\n* 45,000 minutes of engagement",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript",
+        "responsibilities":  "Primary Contributor:\n* Built the core experience from start to finish, integrating 2D and 3D assets, implementing five image targets, and developing the underlying logic to trigger smooth animations upon successful image target scans.\n* Implemented tracking improvements and movement-based smoothing logic to minimize jarring positional drift and provide a more stable user experience.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity through multiple texture optimization passes, balancing file size and visual quality. \n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure UI elements scaled and remained properly positioned across a range of device sizes and screen resolutions.",
+        "videoLink":  "https://www.youtube.com/embed/2NUnMKH4xQM?si=OqclwOfSiwwwU2P8",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Absolute Scale F1 Car",
+        "id":  "F1Car",
+        "date":  "Apr 2023",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "The Google | McLaren Absolute Scale F1 Car was an experimental WebAR experience developed in collaboration with Google, McLaren, and 8th Wall to showcase 8th Wall’s Absolute Scale SLAM-based tracking technology. The experience guided users through an environmental scanning process before placing a full-scale F1 car into their physical space. Users could then walk around the car, view it from different angles, capture photos, and share their experience on social media.\n\nAs the primary contributor for the project, I was responsible for integrating the creative assets and modifying the Absolute Scale tracking implementation to ensure a reliable experience across a range of devices. I also customized the social sharing functionality to add a branded watermark to captured images. Additionally, I integrated Google Analytics to measure the success and failure rates of the environmental scanning process and track the CTA rate for social sharing, providing insights into user engagement and the overall experience.",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript",
+        "responsibilities":  "Primary Contributor:\n* Integrated creative 2D and 3D assets and modifying the 8th Wall Absolute Scale tracking implementation, ensuring a reliable experience across a range of devices.\n* Implemented region-specific asset configurations, allowing the client to customize the experience based on the user\u0027s deployment region.\n* Customized the social sharing functionality by adding branded watermarks to recorded media, reinforcing client branding through shared content.\n* Integrated Google Analytics to measure success and failure rates throughout the Absolute Scale scanning process and track the CTA click-through rates for social sharing, providing insights into user engagement and overall experience.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity through multiple texture optimization passes, balancing file size and visual quality. \n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure UI elements scaled and remained properly positioned across a range of device sizes and screen resolutions.",
+        "videoLink":  "",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Mojo Character SLAM Experience",
+        "id":  "PlanetMojo",
+        "date":  "May 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "WebAR experience developed with Three.js, A-Frame, 8th Wall and JavaScript",
+        "responsibilities":  "",
+        "videoLink":  "https://www.youtube.com/embed/6l0BMpwiZyc?si=UX_OzOstKt83_len",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Shirt of Firsts",
+        "id":  "ShirtOfFirsts",
+        "date":  "Dec 2022",
+        "platform":  "Desktop",
+        "role":  "Front-End, Back-End",
+        "overview":  "The Shirt of Firsts was a desktop 3D experience developed in conjunction with GOAL and Unilever to promote 22 \"first\" achievements during the 2022 FIFA World Cup. The experience initially featured a blank shirt, with 22 different patches updating on the shirt during various moments in the World Cup. Each patch featured a different country with a historic \"first\" milestone. The user was able to click on each individual patch to read what the milestone was. An additional contest was held to give out a physical Shirt of Firsts to a lucky winner.\n\nAs the primary contributor of this project, I designed the system to easily swap out assets for the Shirt of Firsts, which contained 22 different texture files and infomation points that would be updated during various times in December when this project was active. I partnered with the back-end developer to co-design the CMS system, allowing the client to easily upload information for each milestone to be updated internally on the website.",
+        "impact":  "No publicly disclosed performance metrics",
+        "technicalDetails":  "Web experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Back-end developed with a custom CMS.",
+        "responsibilities":  "Primary Contributor:\n* Designed and developed the texture swap system for the Shirt of Firsts, allowing content managers to easily update the 3D model.\n* Worked in partnership with back-end developers to co-design the content management system, enabling users to easily add informational content for each milestone.\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity through multiple texture optimization passes, balancing file size and visual quality. \n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure UI elements scaled and remained properly positioned across a range of device sizes and screen resolutions.",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  ""
+    },
+    {
+        "name":  "Secret Santa Postal Service",
+        "id":  "SecretSanta",
+        "date":  "Nov 2022",
+        "platform":  "Mobile",
+        "role":  "Front-End, UX/UI",
+        "overview":  "Cadbury: Secret Santa Postal Service was a mobile WebAR experience developed in partnership with Bernadette to promote the annual Secret Santa Postal Service campaign to give away free chocolate bars to recipients across the UK. This iteration featured an Augmented Reality activation where the poster would expand out to show a counter nook with the postal worker introducing the campaign. After the introduction, the user would be able to enter the promotion to give away a Cadbury chocolate bar away to the recipient of their choice. \n\nAs the primary contributor, I designed the Augmented Reality activation by integrating creative assets and developed interactive scripts to allow the experience to run smoothly. I also aided in brainstorming accessibility features so users who were hard of hearing could also participate in the experience. Through this, I developed a script to sync the video with subtitles, which would activate if the user chose to activate it.",
+        "impact":  "* Nation-wide campaign across various digital billboards and print posters in the UK\n* 278,000+ QR code scans\n* 200 UK DOOH locations\n* +5% seasonal sales increase",
+        "technicalDetails":  "Web experience developed with Three.js, A-Frame, 8th Wall and JavaScript. Subtitles created through manual transcription.",
+        "responsibilities":  "Primary Contributor:\n* Integrated 2D and 3D creative assets and implemented image target assets into the system.\n* Implemented the image target scan logic and added functionality to improve interactivity throughout the experience.\n* Added subtitle and audio-mute accessibility features to improve the experience for users who are hard of hearing.\n* Designed and implemented form-based functionality, allowing users to enter the giveaway without issue.\n\n\nQuality Assurance:\n* Ensured stable performance and high visual fidelity through multiple texture optimization passes, balancing file size and visual quality. \n* Conducted extensive testing across a wide range of physical Apple and Android devices, as well as emulators, to ensure UI elements scaled and remained properly positioned across a range of device sizes and screen resolutions.",
+        "videoLink":  "https://www.youtube.com/embed/8doARrlLbiI?si=fvLda7DaAsxAXKrN",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Time Out",
+        "id":  "TimeOut",
+        "date":  "March 2021",
+        "platform":  "Unity VR",
+        "role":  "Unity Developer",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "560",
+        "videoHeight":  "315"
+    },
+    {
+        "name":  "Homebound",
+        "id":  "Homebound",
+        "date":  "Oct 2020",
+        "platform":  "Desktop",
+        "role":  "3D Generalist",
+        "overview":  "",
+        "impact":  "",
+        "technicalDetails":  "",
+        "responsibilities":  "",
+        "videoLink":  "",
+        "videoWidth":  "",
+        "videoHeight":  null
     }
 ]
