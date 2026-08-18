@@ -11,7 +11,7 @@ export const PortfolioGenerate = {
   generatePortfolioSquares(preview) {
     const portfolioSquare = document.createElement('div')
     portfolioSquare.className = 'portfolio-square cantap'
-    if (!preview.title.includes('Haribo') && !preview.title.includes('American Express') && !preview.title.includes('OKX')) {
+    if (preview.title.includes('Spirits') || preview.title.includes('Planet')) {
       portfolioSquare.classList.remove('cantap')
       portfolioSquare.classList.add('tempUnavail')
     }
