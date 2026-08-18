@@ -43,20 +43,26 @@ export const ProjectGenerate = {
       let videoFile
       try {
         videoFile = `public/videos/${data}.mp4`
-      } catch {}
+      } catch {
+        console.log('no video file')
+      }
 
       if (videoFile) {
         videoEl = document.createElement('video')
         videoEl.classList.add('article-project-video')
         videoEl.controls = true
         videoEl.src = videoFile
+      } else {
+        console.log('no video file')
       }
     }
     document.querySelector('.article-project-video-container').innerHTML = '' // Sanitize the inside of the container if a pre-existing video is potentially there.
-    if (!videoEl) {
+    if (currentProject.videoLink === 'NONE') {
+      console.log('no video El')
       document.querySelector('.article-project-video-container').style.display = 'none'
+    } else {
+      document.querySelector('.article-project-video-container').appendChild(videoEl)
     }
-    document.querySelector('.article-project-video-container').appendChild(videoEl)
 
     document.querySelector('.article-project-technical-details-body').innerHTML = currentProject.technicalDetails.replace(/\n/g, '<br>')
 
