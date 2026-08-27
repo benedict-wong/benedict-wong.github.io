@@ -1,0 +1,27 @@
+[
+  {
+    "id": "languages",
+    "title": "Languages",
+    "skills": ["HTML, CSS", "SASS, SCSS", "JavaScript", "TypeScript", "C#", "Java", "SQL"]
+  },
+  {
+    "id": "frameworks-libraries",
+    "title": "Frameworks & Libraries",
+    "skills": ["Vue.js", "Nuxt.js", "React", "A-Frame", "Three.js", "Zappar", "Unity", "Lens Studio"]
+  },
+  {
+    "id": "build-development",
+    "title": "Build & Development Tools",
+    "skills": ["Webpack", "ESLint", "Babel", "Git", "Github", "FFmpeg", "Node.js", "NPM"]
+  },
+  {
+    "id": "analytics",
+    "title": "Analytics & Marketing Tools",
+    "skills": ["Google Analytics", "Google Tag Manager", "Tableau", "MATLAB"]
+  },
+  {
+    "id": "collab-design",
+    "title": "Collaboration & Design Tools",
+    "skills": ["Jira", "Asana", "Trello", "Figma", "Axure", "Adobe Photoshop", "Adobe Illustrator", "Autodesk Maya", "Blender", "Notion"]
+  }
+]
