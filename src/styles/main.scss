@@ -296,6 +296,18 @@ body {
   opacity: 1;
 }
 
+.tech-stack-skills-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tech-stack-skill {
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: #000 1px 1px 3px 0px;
+  padding: 0.5% 1%;
+}
+
 @media (max-width: 1024px) {
   .portfolio-content-container {
     grid-template-columns: repeat(2, 1fr); /* 2 items per row for tablets */
