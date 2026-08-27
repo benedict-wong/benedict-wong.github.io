@@ -10,6 +10,7 @@ import './styles/project.scss'
 import { PortfolioGenerate } from './components/portfolio-generate'
 import { ProjectGenerate } from './components/project-generate'
 import { SetCurrentYear } from './components/set-current-year'
+import { TechStackGenerate } from './components/tech-stack-generate'
 
 // document.body.style.touchAction = 'none'
 document.body.insertAdjacentHTML('afterbegin', guiHTML)
@@ -18,6 +19,7 @@ const components = {
   'portfolio-generate': PortfolioGenerate,
   'project-generate': ProjectGenerate,
   'set-current-year': SetCurrentYear,
+  'tech-stack-generate': TechStackGenerate,
 }
 
 function registerComponent(name, definition) {
