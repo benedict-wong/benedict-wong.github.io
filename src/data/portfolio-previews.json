@@ -124,9 +124,9 @@
     {
       "title": "Cadbury | Secret Santa Postal Service",
       "id": "SecretSanta",
-      "description": "A WebAR image target experience that allows users to interact with a 3D postal service box, featuring a video with subtitles. Users can then interact with the CTA button to send physical Cadbury chocolate bars to their friends and family.",
+      "description": "A WebAR and digital out-of-home experience that allows users to interact with a 3D postal service box, featuring a video with subtitles. Users can then interact with the CTA button to send physical Cadbury chocolate bars to their friends and family.",
       "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
+      "type": "DOOH, Mobile",
       "date": "Nov 2022",
       "hiddenDate": "2022-11"
     }
