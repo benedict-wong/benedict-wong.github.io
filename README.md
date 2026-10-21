@@ -1,3 +1,3 @@
-# Benedict Wong's Portfolio
+# FanEmotions
 
-Portfolio website built with HTML/CSS, JavaScript
+This repo is a boilerplate template for all future React & Next projects

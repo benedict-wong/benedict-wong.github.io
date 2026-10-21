@@ -7,12 +7,12 @@
   {
     "id": "frameworks-libraries",
     "title": "Frameworks & Libraries",
-    "skills": ["Vue.js", "Nuxt.js", "React", "A-Frame", "Three.js", "Zappar", "Unity", "Lens Studio"]
+    "skills": ["Vue.js", "React", "Next.js", "A-Frame", "Three.js", "Zappar", "Unity", "Lens Studio"]
   },
   {
     "id": "build-development",
     "title": "Build & Development Tools",
-    "skills": ["Webpack", "ESLint", "Babel", "Git", "Github", "FFmpeg", "Node.js", "NPM"]
+    "skills": ["Webpack", "ESLint", "Babel", "Git", "Github", "FFmpeg", "Node.js", "NPM", "Storybook"]
   },
   {
     "id": "analytics",

@@ -1,0 +1,28 @@
+.braced-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.25em;
+  transition: color 0.2s ease;
+}
+
+.braced-link::before,
+.braced-link::after {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.braced-link::before {
+  content: '{';
+  margin-right: 2em;
+}
+
+.braced-link::after {
+  content: '}';
+  margin-left: 2em;
+}
+
+.braced-link:hover::before,
+.braced-link:hover::after {
+  opacity: 1;
+}

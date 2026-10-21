@@ -1,134 +1,132 @@
-{
-  "previews": [
-    {
-      "title": "American Express | Your World of AMEX",
-      "id": "YWOA",
-      "description": "A WebAR experience that showcases the different benefits of using an American Express card. Features an interactive island with hotspots that users can click on to learn more about the benefits.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "link": "./src/screens/project-1.html",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "March 2024",
-      "hiddenDate": "2024-03"
-    },
-    {
-      "title": "Haribo | Easter Happiness Hunt",
-      "id": "HariboEasterEggHunt",
-      "description": "A WebAR scavenger hunt game where players explore their real-world surroundings to find and collect hidden Haribo Easter candy. Over three annual iterations, the game evolved with new features including an endless mode and a competitive multiplayer experience.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "link": "./screens/project-2.html",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "Feb 2022 - 2024",
-      "hiddenDate": "2022-02"
-    },
-    {
-      "title": "Manchester City OKX | Play for the City",
-      "id": "PlayForTheCity",
-      "description": "A WebAR experience utilizing Ready Player Me avatars that allows users to create a personalized avatar and see it perform football tricks in their real-world environment.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "Ready Player Me", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "April 2023",
-      "hiddenDate": "2023-04"
-    },
-    {
-      "title": "Manchester City TECNO Mobile | #AnnounceYourself",
-      "id": "AnnounceYourself",
-      "description": "A WebAR experience and 360 walk-around feature that allows users to explore the Etihad Stadium and training grounds. Features an experience where users can sign for Manchester City, create their custom jersey and play a penalty shootout game.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "360 walk-around", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "Jan 2022",
-      "hiddenDate": "2022-01"
-    },
-    {
-      "title": "Owens Corning | Where Performance Meets Purpose",
-      "id": "WPMP",
-      "description": "A WebAR experience featuring a building that showcases Owens Corning's sustainable building solutions. Users can explore the building in their real-world environment and interact with hotspots to learn more about the products and their information.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "June 2023",
-      "hiddenDate": "2023-06"
-    },
-    {
-      "title": "Spin Genie | Spin Genie Portal",
-      "id": "SpinGenie",
-      "description": "A 3D environment scavenger hunt experience that features objects from Spin Genie's different casino games.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "tags": ["AR", "3D Environment", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "type": "Mobile",
-      "date": "Sept 2024",
-      "hiddenDate": "2024-09"
-    },
-    {
-      "title": "Diageo | Spirits Choice",
-      "id": "SpiritsChoice",
-      "description": "A mobile experience that helps users discover and choose Diageo spirits based on their preferences.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["HTML", "CSS", "JavaScript", "Vue", "Nuxt"],
-      "date": "July 2024",
-      "hiddenDate": "2024-07"
-    },
-    {
-      "title": "Dare Iced Coffee | Dare Rainforest Alliance ",
-      "id": "DareIcedCoffee",
-      "description": "A tap-to-place AR SLAM experience featuring a Dare Iced Coffee bottle. Features interactive easter egg elements that reveal different animations surrounding the Dare Iced Coffee bottle.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "Aug 2022",
-      "hiddenDate": "2022-08",
-      "url": "https://www.adnews.com.au/news/yahoo-creative-studios-brings-the-rainforest-to-life-for-dare-iced-coffee"
-    },
-    {
-      "title": "EE | Full Fibre House",
-      "id": "FullFibreHouse",
-      "description": "A WebXR experience that showcases the benefits of EE's Full Fibre broadband through an animated 2.5D house. Features a scannable image target and SLAM tracking to view different aspects of a house using EE's Full Fibre broadband.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "Sept 2022",
-      "hiddenDate": "2022-09"
-    },
-    {
-      "title": "Google x McLaren | Absolute Scale F1 Car",
-      "id": "F1Car",
-      "description": "A WebAR tech demo that showcases an absolute scale 3D model of a McLaren F1 car that users can place in their real-world environment and manipulate to see the details.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
-      "date": "April 2023",
-      "hiddenDate": "2023-04"
-    },
-    {
-      "title": "Planet Mojo | Mojo Character SLAM Experience",
-      "id": "PlanetMojo",
-      "description": "A WebAR experience that showcases a Mojo character in their real-world environment using SLAM technology. Features an animated transition from a seed growing into the Mojo character.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Mobile",
-      "date": "May 2022",
-      "hiddenDate": "2022-05"
-    },
-    {
-      "title": "GOAL x Clear | Shirt of Firsts",
-      "id": "ShirtOfFirsts",
-      "description": "A 3D desktop experience that lets users explore a virtual gallery showcasing the Shirt of Firsts, a special edition football jersey featuring patches of various country flags. Each patch is interactive, revealing stories of key first achievements during the 2022 World Cup.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "Desktop",
-      "date": "Dec 2022",
-      "hiddenDate": "2022-12"
-    },
-    {
-      "title": "Cadbury | Secret Santa Postal Service",
-      "id": "SecretSanta",
-      "description": "A WebAR and digital out-of-home experience that allows users to interact with a 3D postal service box, featuring a video with subtitles. Users can then interact with the CTA button to send physical Cadbury chocolate bars to their friends and family.",
-      "image": "./assets/images/project-1/TimeOut.png",
-      "type": "DOOH, Mobile",
-      "date": "Nov 2022",
-      "hiddenDate": "2022-11"
-    }
-  ]
-}
+[
+  {
+    "title": "American Express | Your World of AMEX",
+    "id": "YWOA",
+    "description": "A WebAR experience that showcases the different benefits of using an American Express card. Features an interactive island with hotspots that users can click on to learn more about the benefits.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "link": "./src/screens/project-1.html",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "March 2024",
+    "hiddenDate": "2024-03"
+  },
+  {
+    "title": "Haribo | Easter Happiness Hunt",
+    "id": "HariboEasterEggHunt",
+    "description": "A WebAR scavenger hunt game where players explore their real-world surroundings to find and collect hidden Haribo Easter candy. Over three annual iterations, the game evolved with new features including an endless mode and a competitive multiplayer experience.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "link": "./screens/project-2.html",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "Feb 2022 - 2024",
+    "hiddenDate": "2022-02"
+  },
+  {
+    "title": "Manchester City OKX | Play for the City",
+    "id": "PlayForTheCity",
+    "description": "A WebAR experience utilizing Ready Player Me avatars that allows users to create a personalized avatar and see it perform football tricks in their real-world environment.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "Ready Player Me", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "April 2023",
+    "hiddenDate": "2023-04"
+  },
+  {
+    "title": "Manchester City TECNO Mobile | #AnnounceYourself",
+    "id": "AnnounceYourself",
+    "description": "A WebAR experience and 360 walk-around feature that allows users to explore the Etihad Stadium and training grounds. Features an experience where users can sign for Manchester City, create their custom jersey and play a penalty shootout game.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "360 walk-around", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "Jan 2022",
+    "hiddenDate": "2022-01"
+  },
+  {
+    "title": "Owens Corning | Where Performance Meets Purpose",
+    "id": "WPMP",
+    "description": "A WebAR experience featuring a building that showcases Owens Corning's sustainable building solutions. Users can explore the building in their real-world environment and interact with hotspots to learn more about the products and their information.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "June 2023",
+    "hiddenDate": "2023-06"
+  },
+  {
+    "title": "Spin Genie | Spin Genie Portal",
+    "id": "SpinGenie",
+    "description": "A 3D environment scavenger hunt experience that features objects from Spin Genie's different casino games.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "tags": ["AR", "3D Environment", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "type": "Mobile",
+    "date": "Sept 2024",
+    "hiddenDate": "2024-09"
+  },
+  {
+    "title": "Diageo | Spirits Choice",
+    "id": "SpiritsChoice",
+    "description": "A mobile experience that helps users discover and choose Diageo spirits based on their preferences.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["HTML", "CSS", "JavaScript", "Vue", "Nuxt"],
+    "date": "July 2024",
+    "hiddenDate": "2024-07"
+  },
+  {
+    "title": "Dare Iced Coffee | Dare Rainforest Alliance ",
+    "id": "DareIcedCoffee",
+    "description": "A tap-to-place AR SLAM experience featuring a Dare Iced Coffee bottle. Features interactive easter egg elements that reveal different animations surrounding the Dare Iced Coffee bottle.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "Aug 2022",
+    "hiddenDate": "2022-08",
+    "url": "https://www.adnews.com.au/news/yahoo-creative-studios-brings-the-rainforest-to-life-for-dare-iced-coffee"
+  },
+  {
+    "title": "EE | Full Fibre House",
+    "id": "FullFibreHouse",
+    "description": "A WebXR experience that showcases the benefits of EE's Full Fibre broadband through an animated 2.5D house. Features a scannable image target and SLAM tracking to view different aspects of a house using EE's Full Fibre broadband.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["AR", "Image Target", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "Sept 2022",
+    "hiddenDate": "2022-09"
+  },
+  {
+    "title": "Google x McLaren | Absolute Scale F1 Car",
+    "id": "F1Car",
+    "description": "A WebAR tech demo that showcases an absolute scale 3D model of a McLaren F1 car that users can place in their real-world environment and manipulate to see the details.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "tags": ["AR", "SLAM", "HTML", "CSS", "JavaScript", "A-Frame"],
+    "date": "April 2023",
+    "hiddenDate": "2023-04"
+  },
+  {
+    "title": "Planet Mojo | Mojo Character SLAM Experience",
+    "id": "PlanetMojo",
+    "description": "A WebAR experience that showcases a Mojo character in their real-world environment using SLAM technology. Features an animated transition from a seed growing into the Mojo character.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Mobile",
+    "date": "May 2022",
+    "hiddenDate": "2022-05"
+  },
+  {
+    "title": "GOAL x Clear | Shirt of Firsts",
+    "id": "ShirtOfFirsts",
+    "description": "A 3D desktop experience that lets users explore a virtual gallery showcasing the Shirt of Firsts, a special edition football jersey featuring patches of various country flags. Each patch is interactive, revealing stories of key first achievements during the 2022 World Cup.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "Desktop",
+    "date": "Dec 2022",
+    "hiddenDate": "2022-12"
+  },
+  {
+    "title": "Cadbury | Secret Santa Postal Service",
+    "id": "SecretSanta",
+    "description": "A WebAR and digital out-of-home experience that allows users to interact with a 3D postal service box, featuring a video with subtitles. Users can then interact with the CTA button to send physical Cadbury chocolate bars to their friends and family.",
+    "image": "./assets/images/project-1/TimeOut.png",
+    "type": "DOOH, Mobile",
+    "date": "Nov 2022",
+    "hiddenDate": "2022-11"
+  }
+]
