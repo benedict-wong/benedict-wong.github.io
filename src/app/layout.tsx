@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 import './globals.scss'
 
 export const metadata: Metadata = {
-  title: 'React Template',
-  description: 'Boilerplate template for React & Next projects',
+  title: 'Benedict Wong Portfolio',
+  description: "Benedict Wong's Portfolio, built with React and Next",
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
